@@ -1,4 +1,4 @@
-package org.kraland.community.parser;
+package org.kralandce.krapi.core.parser;
 
 import java.io.IOException;
 import java.net.MalformedURLException;

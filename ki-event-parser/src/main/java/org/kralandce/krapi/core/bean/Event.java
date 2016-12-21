@@ -1,4 +1,4 @@
-package org.kraland.community.bean;
+package org.kralandce.krapi.core.bean;
 
 import java.util.Date;
 

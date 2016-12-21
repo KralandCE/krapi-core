@@ -1,4 +1,4 @@
-package org.kraland.community.parser;
+package org.kralandce.krapi.core.parser;
 
 public interface Constantes {
 
