@@ -75,39 +75,57 @@ public class EventParser {
         localDate = localDate.minusDays(1);
         this.theEvenements = new Events();
         this.theEvenements.setJour(localDate);
-
-
+        
+        if (LOCAL_PAGE.isEmpty()) {
+            System.out.println("LOCAL_PAGE empty");
+            return null;
+        }
+        
+        
+        // the date of the event that we need
+        String eventDate = "2016-03-22";// localDate.toString();
+        
+        String beforeEventDate = "2016-03-21"; // localDate.minusDays(1).toString();
+        
 
         // GET a PAGE
-        Document doc = Util.getDocument(LOCAL_PAGE);
+        Document doc = getPageByPass(LOCAL_PAGE);
         // Lookup for DATE
         Elements listJour = doc.getElementsByClass("forum-c3");
+        int page = 0;
         // Lookup for page list
         if (listJour.size() > 1) {
             Element pageList = listJour.get(0);
             pageList = pageList.previousElementSibling();
-            System.out.println(pageList);
+            // nombre de page
+            page = pageList.child(0).childNodeSize()/2;
         }
         // 
-        
-        // get events if match the day
-        parseCenter(listJour);
-        
-        
-        // System.out.println(doc);
+        boolean stop = false;
+        do {
+          
+          stop = parseCenter(listJour, eventDate, beforeEventDate);
+          // TODO need plus eleguant
+          if (!stop) {
+              page = page - 1;
+              //    Jsoup.connect("http://www.kraland.org/main.php?p=4_4_"+page";
+              doc = getPageByPass(LOCAL_PAGE);
+              listJour = doc.getElementsByClass("forum-c3");
+          }
+        // stop if no page or event found for the day before
+        } while (page != 0 && !stop);
         
         return this.theEvenements;
     }
     
-    public void parseCenter(Elements listJour) {
-
-        // the date of the event that we need
-        String eventDate = "2016-03-21";// localDate.toString();
-
+    public boolean parseCenter(Elements listJour, String day, String theDayBefore) {
+        boolean theDayBeforeFound = false;
+         
+        
         Element found = null;
         for (Element el : listJour) {
             String valDateNode = Util.getFullText(el);
-            if (eventDate.equalsIgnoreCase(valDateNode)) {
+            if (day.equalsIgnoreCase(valDateNode)) {
                 found = el;
             }
         }
@@ -117,15 +135,18 @@ public class EventParser {
             boolean sep = false;
             while (sib != null && !sep) {
                 if (!sib.hasClass("forum-c3") && sib.childNodeSize() == 3) {
-                    Event ev = parseNode(eventDate, sib);
+                    Event ev = parseNode(day, sib);
                     this.theEvenements.add(ev);
                 } else {
                     // on a fini de traiter les évènements du jour
                     sep = true;
+                    // TODO to be Test
+                    theDayBeforeFound = theDayBefore.equalsIgnoreCase(Util.getFullText(sib));
                 }
                 sib = sib.nextElementSibling();
             }
         }
+        return theDayBeforeFound;
     }
     
 
@@ -137,7 +158,7 @@ public class EventParser {
      * @throws IOException
      */
     public static void main(String[] args) throws MalformedURLException, IOException {
-        new EventParser().proceed();
+        Util.toPrettyJson(new EventParser().proceed());
     }
 
     private Document getPageByPass(String url) throws MalformedURLException, IOException {
