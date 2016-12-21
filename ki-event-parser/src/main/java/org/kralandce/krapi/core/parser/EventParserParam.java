@@ -7,7 +7,7 @@ package org.kralandce.krapi.core.parser;
  */
 public enum EventParserParam {
 
-    KI_SLAVE_LOGIN("sbleune45"), KI_SLAVE_PASS("slave"), AUTHENFICATION("false");
+    KI_SLAVE_LOGIN(""), KI_SLAVE_PASS(""), AUTHENFICATION("false");
 
     private final String val;
 
