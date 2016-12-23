@@ -5,7 +5,7 @@ import java.net.MalformedURLException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
-
+import java.util.Map;
 
 import org.jsoup.Connection;
 import org.jsoup.Connection.Method;
@@ -41,33 +41,6 @@ public class EventParser {
      * Le formulaire des évènements et les sécurités relou: tentative depuis un serveur externe. // 
      */
 
-    // A voir quand KI aura des évènements accessible
-    public static Connection getConnetion() throws IOException {
-        Connection.Response res = null;
-        if (EventParserParam.AUTHENFICATION.isVal()) {
-            // Document doc = Util.getDocument();
-            res = Jsoup.connect("http://www.kraland.org/main.php?p=5&a=100")
-                    .data("p1", EventParserParam.KI_SLAVE_LOGIN.getVal(), "p2", EventParserParam.KI_SLAVE_PASS.getVal(),
-                            "Submit", "Ok")
-                    .method(Method.POST).execute();
-            Document docRes = res.parse();
-        }
-        Connection conn = Jsoup.connect("http://www.kraland.org/main.php?p=4_4&t=11a46f&a=2&p1=10")
-                .referrer("Referer: http://www.kraland.org/main.php?p=4_4");
-        String[] cookies = { "PHPSESSID", "FUSEGUID", "id", "login", "password", "pc_id", "pus-idv" };
-        if (res != null) {
-            for (String cooki : cookies) {
-                if (res.cookie(cooki) != null) {
-                    conn.cookie(cooki, res.cookie(cooki));
-                } else {
-                    System.out.println(cooki);
-                }
-            }
-        }
-
-        return conn;
-    }
-
     public Events proceed() throws MalformedURLException, IOException {
         // Check if need to specify the timezone
 
@@ -76,20 +49,21 @@ public class EventParser {
         this.theEvenements = new Events();
         this.theEvenements.setJour(localDate);
         
-        if (LOCAL_PAGE.isEmpty()) {
-            System.out.println("LOCAL_PAGE empty");
-            return null;
-        }
+        Connection conn = Jsoup.connect("http://www.kraland.org/main.php?p=4_4");
         
+        Document    
+        doc =  conn.url("http://www.kraland.org/main.php?p=4_4&t=211cc3&a=2&p1=10").referrer("http://www.kraland.org/main.php?p=4_4&t=211cc3&a=2&p1=10").get();
+        
+        System.out.println(doc);
         
         // the date of the event that we need
-        String eventDate = "2016-03-22";// localDate.toString();
+        String eventDate = localDate.toString(); //"2016-03-22";// 
         
-        String beforeEventDate = "2016-03-21"; // localDate.minusDays(1).toString();
+        String beforeEventDate =  localDate.minusDays(1).toString(); //"2016-03-21"; //
         
 
         // GET a PAGE
-        Document doc = getPageByPass(LOCAL_PAGE);
+        
         // Lookup for DATE
         Elements listJour = doc.getElementsByClass("forum-c3");
         int page = 0;
@@ -100,7 +74,7 @@ public class EventParser {
             // nombre de page
             page = pageList.child(0).childNodeSize()/2;
         }
-        // 
+        
         boolean stop = false;
         do {
           
@@ -149,7 +123,43 @@ public class EventParser {
         return theDayBeforeFound;
     }
     
-
+    
+    private static Connection copyCookie(Connection.Response res, Connection conn) {
+        if (res != null && conn != null) {
+            Map<String, String> cookies = res.cookies();
+            for (Map.Entry<String, String> entry : cookies.entrySet()) {
+                conn.cookie(entry.getKey(), entry.getValue());
+               // System.out.println(entry.getKey());
+            }
+        }
+        return conn;
+    }
+    
+    private static String getHiddenT(Document doc) {
+        
+        return doc.getElementById("report-col3").getElementsByAttributeValue("name", "t").get(0).attr("value");
+    }
+    
+    /**
+     * 
+     * @return
+     * @throws IOException
+     */
+    private static Connection.Response authentificationKi() throws IOException {
+        Connection.Response res = null;
+        if (EventParserParam.AUTHENFICATION.isVal()) {
+            res = Jsoup.connect("http://www.kraland.org/main.php?p=5&a=100")
+                    .data("p1", EventParserParam.KI_SLAVE_LOGIN.getVal(), "p2", EventParserParam.KI_SLAVE_PASS.getVal(),
+                            "Submit", "Ok")
+                    .method(Method.POST).execute();
+        } else {
+            res = Jsoup.connect("http://www.kraland.org/main.php").method(Method.GET).execute();
+        }
+        return res;
+    }
+    
+    
+    
     /**
      * Only for test for now.
      * 
@@ -158,7 +168,61 @@ public class EventParser {
      * @throws IOException
      */
     public static void main(String[] args) throws MalformedURLException, IOException {
-        Util.toPrettyJson(new EventParser().proceed());
+        //Util.toPrettyJson(new EventParser().proceed());
+        Connection conn = null;
+        Connection.Response res = null;
+        Document doc = null;
+        
+        
+        
+        Connection.Response resref = authentificationKi();
+        
+        conn = Jsoup.connect("http://www.kraland.org/main.php?p=4_4").method(Method.GET);
+        conn = copyCookie(resref, conn);
+        
+        // Connetion à la page
+        res = conn.execute();
+        doc = res.parse();
+        
+        // on récupère la page de tous les évènements.
+        Elements ellls = doc.getElementsByAttributeValueMatching("title", "Rapport complet");
+        
+        String lien = "http://www.kraland.org/" +ellls.get(0).attr("href");
+        System.out.println(lien);
+        conn = Jsoup.connect(lien).method(Method.GET);
+        conn.referrer(lien).header("Host", "www.kraland.org");
+        conn = copyCookie(resref, conn);
+        
+        
+        res = conn.execute();
+        doc = res.parse();
+        //System.out.println(doc);
+        ellls = doc.getElementsByAttributeValueMatching("title", "Rapport complet");
+        lien = "http://www.kraland.org/" +ellls.get(0).attr("href");
+        
+        conn = Jsoup.connect("http://www.kraland.org/main.php").method(Method.POST);
+        conn.referrer(lien)
+        .header("Host", "www.kraland.org")
+        .data("p","4_4")
+        .data("p7","Tous+les+empires+%2B+provinces+et+villes")
+        .data("a","1")
+        .data("Submit","Actualiser")
+        .data("p1","250")
+        .data("p2","on").data("t",getHiddenT(doc));
+        conn = copyCookie(resref, conn);
+                
+        res = conn.execute();
+        doc = res.parse();
+        System.out.println(doc);
+        
+        // là on a la page principale de travail.
+        // On doit ensuite faire des get des autres pages avec le bon referrer
+        // les cookies et le bon lien 
+        // et c'est gagné.
+        
+        
+        
+
     }
 
     private Document getPageByPass(String url) throws MalformedURLException, IOException {
