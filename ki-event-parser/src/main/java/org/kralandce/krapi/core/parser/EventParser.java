@@ -15,6 +15,8 @@ import org.jsoup.nodes.Node;
 import org.jsoup.select.Elements;
 import org.kralandce.krapi.core.bean.Event;
 import org.kralandce.krapi.core.bean.Events;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * 
@@ -23,6 +25,8 @@ import org.kralandce.krapi.core.bean.Events;
  */
 public class EventParser {
 
+    final static Logger logger = LoggerFactory.getLogger(EventParser.class);
+    
     private Events theEvenements;
 
     /*
@@ -52,13 +56,12 @@ public class EventParser {
                 result.cookie(entry.getKey(), entry.getValue());
             }
         }
-        
-        
         return result;
     }
     
 
     public Events proceed() throws MalformedURLException, IOException {
+        
         // Check if need to specify the timezone
 
         LocalDate localDate = LocalDate.now();
@@ -66,6 +69,10 @@ public class EventParser {
         this.theEvenements = new Events();
         this.theEvenements.setJour(localDate);
         
+        // TODO passer une date en param
+        // the date of the event that we need
+        String eventDate = localDate.toString(); //"2016-03-22";//  
+        String beforeEventDate = localDate.minusDays(1).toString(); // "2016-03-21"; //
         
         Connection conn = null;
         Connection.Response res = null;
@@ -103,32 +110,13 @@ public class EventParser {
                 
         res = conn.execute();
         doc = res.parse();
-        //System.out.println(doc); 
-        
-        
-        //doc = getPageByPass(LOCAL_PAGE);
-        
         // là on a la page principale de travail.
         // On doit ensuite faire des get des autres pages avec le bon referrer
         // les cookies et le bon lien 
         // et c'est gagné.
 
         
-        //System.out.println(doc);
-        
-        // the date of the event that we need
-        String eventDate = localDate.toString(); //"2016-03-22";//  
-        
-        String beforeEventDate = localDate.minusDays(1).toString(); // "2016-03-21"; //
-        
-
-        // GET a PAGE
-        
-        // Lookup for DATE
-        Elements listJour = doc.getElementsByClass("forum-c3");
-        
         Elements selectPage = doc.getElementsByClass("forum-selpage");
-        
         int page = 0;
         // Lookup for page list
         if (!selectPage.isEmpty()) {
@@ -136,10 +124,11 @@ public class EventParser {
             pageList = pageList.parent();
             // nombre de page
             page = pageList.childNodeSize()/2;
+            logger.debug("Nombre de page : "+ page);
         }
         
-
-
+        // Lookup for DATE
+        Elements listJour = doc.getElementsByClass("forum-c3");
         boolean stop = false;
         do {
           
@@ -154,13 +143,12 @@ public class EventParser {
           }
         // stop if no page or event found for the day before
         } while (page != 0 && !stop);
-
+        logger.debug("Page restante : " + page);
+        
         return this.theEvenements;
     }
     
 
-    
-    
     
     public boolean parseCenter(Elements listJour, String day, String theDayBefore) {
         boolean theDayBeforeFound = false;
@@ -184,7 +172,6 @@ public class EventParser {
                 } else {
                     // on a fini de traiter les évènements du jour
                     sep = true;
-                    // TODO to be Test
                     theDayBeforeFound = theDayBefore.equalsIgnoreCase(Util.getFullText(sib));
                 }
                 sib = sib.nextElementSibling();
@@ -205,15 +192,18 @@ public class EventParser {
      */
     private static Map<String, String> authentificationKi() throws IOException {
         Connection.Response res = null;
-        if (EventParserParam.AUTHENFICATION.isVal()) {
+        if (EventParserParam.AUTHENFICATION.isValue()) {
             Connection conn = getConnection("http://www.kraland.org/main.php?p=5&a=100", null, null);
-            conn.data("p1", EventParserParam.KI_SLAVE_LOGIN.getVal(), "p2", EventParserParam.KI_SLAVE_PASS.getVal(),
+            conn.data("p1", EventParserParam.KI_SLAVE_LOGIN.getValue(), "p2", EventParserParam.KI_SLAVE_PASS.getValue(),
                     "Submit", "Ok").method(Method.POST).execute();
             res = conn.execute();
         } else {
             res = getConnection("http://www.kraland.org/main.php", null, null).execute();
         }
-        return res.cookies();
+        Map<String, String> cookies = res.cookies();
+
+        logger.debug("cookies: ", cookies);
+        return cookies;
     }
     
     
@@ -226,7 +216,11 @@ public class EventParser {
      * @throws IOException
      */
     public static void main(String[] args) throws MalformedURLException, IOException {
-        System.out.println(Util.toPrettyJson(new EventParser().proceed()));
+        PropertiesHandler.load();
+        EventParser eventP = new EventParser();
+        Events events = eventP.proceed();
+        logger.info("NB event: " + events.getEvents().size());
+        logger.info((Util.toPrettyJson(events)));
     }
 
 
@@ -264,7 +258,6 @@ public class EventParser {
 
         String heure = Util.getText(node.childNode(1));
         heure = heure.replace("\u00A0", "").trim(); // Espace insecable pourri
-        // TODO plus joli ?
         result.setDateHeure(LocalDateTime.parse(eventDate + "T" + heure));
         result.setVille(ville);
         result.setProvince(province);
