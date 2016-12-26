@@ -15,16 +15,19 @@ public class PropertiesHandler {
 
     public static void load() throws IOException {
         InputStream input = PropertiesHandler.class.getClassLoader().getResourceAsStream(PROPS_FILE);
-        if (input == null) {
-            return;
-        }
-        Properties props = new Properties();
-        props.load(input);
 
+        Properties props = null;
+        if (input != null) {
+            props = new Properties();
+            props.load(input);
+        }
+        
         for (EventParserParam param : EventParserParam.values()) {
-            String val = (String) props.get(param.getKey());
-            if (val != null && val.length() > 0) {
-                param.setValue(val);
+            if (props != null) {
+                String val = (String) props.get(param.getKey());
+                if (val != null && val.length() > 0) {
+                    param.setValue(val);
+                }
             }
             String valSys = System.getProperty(param.getKey());
             if (valSys != null && valSys.length() > 0) {
@@ -33,8 +36,6 @@ public class PropertiesHandler {
                 param.setValue(valSys);
             }
         }
-
-
     }
 }
 

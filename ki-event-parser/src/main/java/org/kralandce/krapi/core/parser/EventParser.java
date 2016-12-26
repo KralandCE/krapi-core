@@ -4,11 +4,11 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.format.DateTimeParseException;
 import java.util.Map;
 
 import org.jsoup.Connection;
 import org.jsoup.Connection.Method;
-import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
@@ -36,40 +36,37 @@ public class EventParser {
      * Pour ça il faut récupérer tous les évènements de tous les empires, par 250 ou moins peut importe de toute façon il faut explorer la page pour:
      * -Récupérer le nombre de pages existantes pour les évènements
      * -Dans chaque page trouver la cellule de tableau qui contient la date (th class="forum-c3"), si la date correspond on parcours le tableau
-     * -Pour chaque ligne on trouve l'empire/Province/ville/heure et on persiste 
+     * -Pour chaque ligne on trouve l'empire/Province/ville/heure et on parse 
      * 
-     * PB:
-     * Le formulaire des évènements et les sécurités relou: tentative depuis un serveur externe. // 
      */
-    
-    
-    
-    
-    private static Connection getConnection(String url, Map<String, String> cookies, String referer) {
-        Connection result = null;
-        result = Jsoup.connect(url).method(Method.GET).header("Host", "www.kraland.org");
-        if (referer != null) {
-            result.referrer(referer);
-        }
-        if (cookies != null) {
-            for (Map.Entry<String, String> entry : cookies.entrySet()) {
-                result.cookie(entry.getKey(), entry.getValue());
-            }
-        }
-        return result;
+
+    /**
+     * Proceed to find event from J-1
+     * @return
+     * @throws MalformedURLException
+     * @throws IOException
+     */
+    public Events proceed() throws MalformedURLException, IOException {
+        LocalDate localDate = LocalDate.now();
+        localDate = localDate.minusDays(1);
+        return proceed(localDate);
     }
     
-
-    public Events proceed() throws MalformedURLException, IOException {
+    /**
+     * Proceed to find event for the day dateToCapute
+     * @param dateToCapute
+     * @return
+     * @throws MalformedURLException
+     * @throws IOException
+     */
+    public Events proceed(LocalDate dateToCapute) throws MalformedURLException, IOException {
         
         // Check if need to specify the timezone
 
-        LocalDate localDate = LocalDate.now();
-        localDate = localDate.minusDays(1);
+        LocalDate localDate = dateToCapute;
         this.theEvenements = new Events();
         this.theEvenements.setJour(localDate);
         
-        // TODO passer une date en param
         // the date of the event that we need
         String eventDate = localDate.toString(); //"2016-03-22";//  
         String beforeEventDate = localDate.minusDays(1).toString(); // "2016-03-21"; //
@@ -78,28 +75,24 @@ public class EventParser {
         Connection.Response res = null;
         Document doc = null;
         
+        Map<String, String> cookies = Util.authentificationKi();
         
-        Map<String, String> cookies = authentificationKi();
-        
-        conn = getConnection("http://www.kraland.org/main.php?p=4_4", cookies, null);
-        
+        conn = Util.getConnection(Constantes.URL_EVENT_KRALAND, cookies, null);
         // Connetion à la page
         res = conn.execute();
         doc = res.parse();
         
         // on récupère la page de tous les évènements.
-        Elements ellls = doc.getElementsByAttributeValueMatching("title", "Rapport complet");
-        String lien = "http://www.kraland.org/" +ellls.get(0).attr("href");
+        String lien = getUrlAllEvent(doc);
         
-        System.out.println(lien);
-        conn = getConnection(lien, cookies, lien);
+        conn = Util.getConnection(lien, cookies, lien);
         res = conn.execute();
         doc = res.parse();
         
-        ellls = doc.getElementsByAttributeValueMatching("title", "Rapport complet");
-        lien = "http://www.kraland.org/" +ellls.get(0).attr("href");
-        
-        conn = getConnection("http://www.kraland.org/main.php", cookies, lien);
+        // On positionne le selecteur d'empire et nb element
+        // et on raffraichit la page
+        lien = getUrlAllEvent(doc);
+        conn = Util.getConnection(Constantes.URL_KRALAND_MAIN, cookies, lien);
         conn.method(Method.POST)
         .data("p","4_4")
         .data("p7","Tous+les+empires+%2B+provinces+et+villes")
@@ -116,34 +109,34 @@ public class EventParser {
         // et c'est gagné.
 
         
-        Elements selectPage = doc.getElementsByClass("forum-selpage");
-        int page = 0;
+        Elements selectPage = doc.getElementsByClass(Constantes.CLASS_EVENT_PAGE_SELECT);
+        int pageTotal = 0;
         // Lookup for page list
         if (!selectPage.isEmpty()) {
             Element pageList = selectPage.get(0);
             pageList = pageList.parent();
             // nombre de page
-            page = pageList.childNodeSize()/2;
-            logger.debug("Nombre de page : "+ page);
+            pageTotal = pageList.childNodeSize()/2;
+            
         }
-        
+        logger.debug("Nombre de page : "+ pageTotal);
+        int pageCur = pageTotal;
         // Lookup for DATE
-        Elements listJour = doc.getElementsByClass("forum-c3");
+        Elements listJour = doc.getElementsByClass(Constantes.CLASS_EVENT_DATE);
         boolean stop = false;
         do {
-          
-          stop = parseCenter(listJour, eventDate, beforeEventDate);
-          // TODO need plus eleguant
-          if (!stop) {
-              page = page - 1;
-              conn = getConnection("http://www.kraland.org/main.php?p=4_4_"+page, cookies, lien);
-              res = conn.execute();
-              doc = res.parse();
-              listJour = doc.getElementsByClass("forum-c3");
-          }
+            stop = parseCenter(listJour, eventDate, beforeEventDate);
+            // TODO need plus eleguant
+            pageCur = pageCur - 1;
+            if (!stop) {
+                conn = Util.getConnection(Constantes.URL_EVENT_KRALAND + "_" + pageCur, cookies, lien);
+                res = conn.execute();
+                doc = res.parse();
+                listJour = doc.getElementsByClass(Constantes.CLASS_EVENT_DATE);
+            }
         // stop if no page or event found for the day before
-        } while (page != 0 && !stop);
-        logger.debug("Page restante : " + page);
+        } while (pageCur != 0 && !stop);
+        logger.debug("Page lues : " + (pageTotal - pageCur));
         
         return this.theEvenements;
     }
@@ -166,7 +159,7 @@ public class EventParser {
             Element sib = found.nextElementSibling();
             boolean sep = false;
             while (sib != null && !sep) {
-                if (!sib.hasClass("forum-c3") && sib.childNodeSize() == 3) {
+                if (!sib.hasClass(Constantes.CLASS_EVENT_DATE) && sib.childNodeSize() == 3) {
                     Event ev = parseNode(day, sib);
                     this.theEvenements.add(ev);
                 } else {
@@ -181,31 +174,16 @@ public class EventParser {
     }
     
     
-    private static String getHiddenT(Document doc) {
+    private String getHiddenT(Document doc) {
         return doc.getElementById("report-col3").getElementsByAttributeValue("name", "t").get(0).attr("value");
     }
     
-    /**
-     * Handle authentification if needed for cookie
-     * @return
-     * @throws IOException
-     */
-    private static Map<String, String> authentificationKi() throws IOException {
-        Connection.Response res = null;
-        if (EventParserParam.AUTHENFICATION.isValue()) {
-            Connection conn = getConnection("http://www.kraland.org/main.php?p=5&a=100", null, null);
-            conn.data("p1", EventParserParam.KI_SLAVE_LOGIN.getValue(), "p2", EventParserParam.KI_SLAVE_PASS.getValue(),
-                    "Submit", "Ok").method(Method.POST).execute();
-            res = conn.execute();
-        } else {
-            res = getConnection("http://www.kraland.org/main.php", null, null).execute();
-        }
-        Map<String, String> cookies = res.cookies();
 
-        logger.debug("cookies: ", cookies);
-        return cookies;
+    private String getUrlAllEvent(Document doc) {
+        Elements el = doc.getElementsByAttributeValueMatching("title", "Rapport complet");
+        String result = Constantes.URL_KRALAND +el.get(0).attr("href");
+        return result;
     }
-    
     
     
     /**
@@ -218,7 +196,23 @@ public class EventParser {
     public static void main(String[] args) throws MalformedURLException, IOException {
         PropertiesHandler.load();
         EventParser eventP = new EventParser();
-        Events events = eventP.proceed();
+        LocalDate date = null;
+        if (args.length > 0) {
+            String dateToParse = args[0];
+            try {
+            date = LocalDate.parse(dateToParse);
+            } catch (DateTimeParseException dtpe) {
+                date = null;
+                logger.error("Date :" + dateToParse + " not a valid format, required YYYY-MM-DD");
+            }
+        }
+        Events events = null;
+        if (date != null) {
+            events = eventP.proceed(date);
+        } else {
+            events = eventP.proceed();
+        }
+        
         logger.info("NB event: " + events.getEvents().size());
         logger.info((Util.toPrettyJson(events)));
     }
@@ -233,18 +227,20 @@ public class EventParser {
     private Event parseNode(String eventDate, Element node) {
         Event result = new Event();
         Node loca = node.childNode(0);
-        // TODO CONSTANTES
-        String[] listEmpire = { "RK", "EB", "PC", "TS", "PV", "KE", "CL", "RR", "PI" };
+
         String empire = "";
         String province = "";
         String ville = "";
-
-        Node empi = loca.childNode(0);
-        if (empi.hasAttr("src")) {
-            String im = empi.attr("src");
-            im = im.substring(im.length() - 5, im.length() - 4);
-            int pos = Util.parseInt(im) - 1;
-            empire = listEmpire[pos];
+        
+        // Si au moins un noeud alors on récupére l'empire
+        if (loca.childNodeSize() > 0) {
+            Node empi = loca.childNode(0);
+            if (empi.hasAttr(Constantes.ATTR_SRC)) {
+                String im = empi.attr(Constantes.ATTR_SRC);
+                im = im.substring(im.length() - 5, im.length() - 4);
+                int pos = Util.parseInt(im) - 1;
+                empire = Constantes.EMPIRE_LIST[pos];
+            }
         }
         // Si plus d'un noeud, le second c'est la province
         if (loca.childNodeSize() > 1) {
@@ -254,6 +250,7 @@ public class EventParser {
         if (loca.childNodeSize() > 2) {
             ville = Util.getText(loca.childNode(2));
         }
+        
         result.setData(node.childNode(2).toString());
 
         String heure = Util.getText(node.childNode(1));

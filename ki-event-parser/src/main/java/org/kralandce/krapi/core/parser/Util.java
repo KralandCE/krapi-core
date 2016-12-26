@@ -3,10 +3,15 @@ package org.kralandce.krapi.core.parser;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.Map;
 
+import org.jsoup.Connection;
 import org.jsoup.Jsoup;
+import org.jsoup.Connection.Method;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Node;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -19,6 +24,8 @@ import com.google.gson.GsonBuilder;
  */
 public class Util {
 	
+    final static Logger logger = LoggerFactory.getLogger(Util.class);
+    
 	// private
 	private Util() {
 	}
@@ -99,4 +106,46 @@ public class Util {
 		return Jsoup.parse(new URL(url).openStream(), Constantes.ISO, url);
 	}
 	
+	
+    /**
+     * Get an object connection with referer and cookie setted
+     * @param url url to get
+     * @param cookies cookies for the new connection
+     * @param referer 
+     * @return a connection 
+     */
+    public static Connection getConnection(String url, Map<String, String> cookies, String referer) {
+        Connection result = null;
+        result = Jsoup.connect(url).method(Method.GET).header("Host", Constantes.HOST_KRALAND);
+        if (referer != null) {
+            result.referrer(referer);
+        }
+        if (cookies != null) {
+            for (Map.Entry<String, String> entry : cookies.entrySet()) {
+                result.cookie(entry.getKey(), entry.getValue());
+            }
+        }
+        return result;
+    }
+	
+    /**
+     * Handle authentification if needed for cookie
+     * @return
+     * @throws IOException
+     */
+    public static Map<String, String> authentificationKi() throws IOException {
+        Connection.Response res = null;
+        if (EventParserParam.AUTHENFICATION.isValue()) {
+            Connection conn = getConnection(Constantes.URL_AUTH_KRALAND, null, null);
+            conn.data("p1", EventParserParam.KI_SLAVE_LOGIN.getValue(), "p2", EventParserParam.KI_SLAVE_PASS.getValue(),
+                    "Submit", "Ok").method(Method.POST).execute();
+            res = conn.execute();
+        } else {
+            res = getConnection(Constantes.URL_KRALAND_MAIN, null, null).execute();
+        }
+        Map<String, String> cookies = res.cookies();
+
+        logger.debug("cookies: ", cookies);
+        return cookies;
+    }
 }
