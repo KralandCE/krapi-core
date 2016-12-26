@@ -1,12 +1,7 @@
-package org.kralandce.krapi.core.parser;
+package org.kralandce.krapi.core;
 
-/**
- * Params store as enum
- * @author Hello-Gitty
- *
- */
-public enum EventParserParam {
-
+public enum AuthentificationParam implements KrapiParam {
+    
     KI_SLAVE_LOGIN("kralandce.slave.login", ""), KI_SLAVE_PASS("kralandce.slave.password", ""), AUTHENFICATION("kralandce.is.authentification", "false");
 
     private final String defaut;
@@ -32,12 +27,14 @@ public enum EventParserParam {
         return Boolean.parseBoolean(getValue());
     }
 
-    private EventParserParam(String key, String defaut) {
+    private AuthentificationParam(String key, String defaut) {
         this.defaut = defaut;
         this.key = key;
     }
 
+    public String getPropsFileName() {
+        return null;
+    }
 
-    
-    
+
 }

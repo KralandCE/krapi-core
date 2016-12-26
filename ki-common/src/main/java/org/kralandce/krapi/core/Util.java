@@ -1,4 +1,4 @@
-package org.kralandce.krapi.core.parser;
+package org.kralandce.krapi.core;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -10,6 +10,8 @@ import org.jsoup.Jsoup;
 import org.jsoup.Connection.Method;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Node;
+import org.kralandce.krapi.core.CommonConst;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -103,7 +105,7 @@ public class Util {
 	}
 
 	public static Document getDocument(String url) throws MalformedURLException, IOException {
-		return Jsoup.parse(new URL(url).openStream(), Constantes.ISO, url);
+		return Jsoup.parse(new URL(url).openStream(), CommonConst.ISO, url);
 	}
 	
 	
@@ -116,7 +118,7 @@ public class Util {
      */
     public static Connection getConnection(String url, Map<String, String> cookies, String referer) {
         Connection result = null;
-        result = Jsoup.connect(url).method(Method.GET).header("Host", Constantes.HOST_KRALAND);
+        result = Jsoup.connect(url).method(Method.GET).header("Host", CommonConst.HOST_KRALAND);
         if (referer != null) {
             result.referrer(referer);
         }
@@ -135,13 +137,13 @@ public class Util {
      */
     public static Map<String, String> authentificationKi() throws IOException {
         Connection.Response res = null;
-        if (EventParserParam.AUTHENFICATION.isValue()) {
-            Connection conn = getConnection(Constantes.URL_AUTH_KRALAND, null, null);
-            conn.data("p1", EventParserParam.KI_SLAVE_LOGIN.getValue(), "p2", EventParserParam.KI_SLAVE_PASS.getValue(),
+        if (AuthentificationParam.AUTHENFICATION.isValue()) {
+            Connection conn = getConnection(CommonConst.URL_AUTH_KRALAND, null, null);
+            conn.data("p1", AuthentificationParam.KI_SLAVE_LOGIN.getValue(), "p2", AuthentificationParam.KI_SLAVE_PASS.getValue(),
                     "Submit", "Ok").method(Method.POST).execute();
             res = conn.execute();
         } else {
-            res = getConnection(Constantes.URL_KRALAND_MAIN, null, null).execute();
+            res = getConnection(CommonConst.URL_KRALAND_MAIN, null, null).execute();
         }
         Map<String, String> cookies = res.cookies();
 

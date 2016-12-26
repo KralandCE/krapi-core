@@ -1,4 +1,4 @@
-package org.kralandce.krapi.core.parser;
+package org.kralandce.krapi.core;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -10,19 +10,18 @@ import org.slf4j.LoggerFactory;
 public class PropertiesHandler {
 
     final static Logger logger = LoggerFactory.getLogger(PropertiesHandler.class);
-       
-    private static final String PROPS_FILE = "kralandce.properties";
-
-    public static void load() throws IOException {
-        InputStream input = PropertiesHandler.class.getClassLoader().getResourceAsStream(PROPS_FILE);
+    
+    public static <E extends Enum<E> & KrapiParam> void load(Class<E> o) throws IOException {
+        String propsFileName = "krapi-" +o.getSimpleName() +".properties";
+        InputStream input = PropertiesHandler.class.getClassLoader().getResourceAsStream(propsFileName);
 
         Properties props = null;
         if (input != null) {
             props = new Properties();
             props.load(input);
         }
-        
-        for (EventParserParam param : EventParserParam.values()) {
+
+        for (E param : o.getEnumConstants()) {
             if (props != null) {
                 String val = (String) props.get(param.getKey());
                 if (val != null && val.length() > 0) {

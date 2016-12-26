@@ -1,4 +1,4 @@
-package org.kralandce.krapi.core.parser;
+package org.kralandce.krapi.core.parser.event;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -13,6 +13,9 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
 import org.jsoup.select.Elements;
+import org.kralandce.krapi.core.AuthentificationParam;
+import org.kralandce.krapi.core.PropertiesHandler;
+import org.kralandce.krapi.core.Util;
 import org.kralandce.krapi.core.bean.Event;
 import org.kralandce.krapi.core.bean.Events;
 import org.slf4j.Logger;
@@ -194,7 +197,7 @@ public class EventParser {
      * @throws IOException
      */
     public static void main(String[] args) throws MalformedURLException, IOException {
-        PropertiesHandler.load();
+        PropertiesHandler.load(AuthentificationParam.class);
         EventParser eventP = new EventParser();
         LocalDate date = null;
         if (args.length > 0) {
