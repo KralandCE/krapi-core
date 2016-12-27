@@ -6,6 +6,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeParseException;
 import java.util.Map;
+import java.util.Optional;
 
 import org.jsoup.Connection;
 import org.jsoup.Connection.Method;
@@ -16,6 +17,7 @@ import org.jsoup.select.Elements;
 import org.kralandce.krapi.core.AuthentificationParam;
 import org.kralandce.krapi.core.PropertiesHandler;
 import org.kralandce.krapi.core.Util;
+import org.kralandce.krapi.core.bean.CybermondeDatas;
 import org.kralandce.krapi.core.bean.Event;
 import org.kralandce.krapi.core.bean.Events;
 import org.slf4j.Logger;
@@ -31,6 +33,7 @@ public class EventParser {
     final static Logger logger = LoggerFactory.getLogger(EventParser.class);
     
     private Events theEvenements;
+    private CybermondeDatas datas;
 
     /*
      * Algo:
@@ -69,6 +72,7 @@ public class EventParser {
         LocalDate localDate = dateToCapute;
         this.theEvenements = new Events();
         this.theEvenements.setJour(localDate);
+        this.datas = new CybermondeDatas();
         
         // the date of the event that we need
         String eventDate = localDate.toString(); //"2016-03-22";//  
@@ -231,9 +235,9 @@ public class EventParser {
         Event result = new Event();
         Node loca = node.childNode(0);
 
-        String empire = "";
-        String province = "";
-        String ville = "";
+        Optional<String> empire = Optional.empty();
+        Optional<String> province = Optional.empty();
+        Optional<String> ville = Optional.empty();
         
         // Si au moins un noeud alors on récupére l'empire
         if (loca.childNodeSize() > 0) {
@@ -242,16 +246,16 @@ public class EventParser {
                 String im = empi.attr(Constantes.ATTR_SRC);
                 im = im.substring(im.length() - 5, im.length() - 4);
                 int pos = Util.parseInt(im) - 1;
-                empire = Constantes.EMPIRE_LIST[pos];
+                empire = Optional.of(Constantes.EMPIRE_LIST[pos]);
             }
         }
         // Si plus d'un noeud, le second c'est la province
         if (loca.childNodeSize() > 1) {
-            province = Util.getText(loca.childNode(1));
+            province = Optional.of(Util.getText(loca.childNode(1)));
         }
         // Si plus d'un noeud, le troisieme c'est la ville
         if (loca.childNodeSize() > 2) {
-            ville = Util.getText(loca.childNode(2));
+            ville = Optional.of(Util.getText(loca.childNode(2)));
         }
         
         result.setData(node.childNode(2).toString());
@@ -259,10 +263,31 @@ public class EventParser {
         String heure = Util.getText(node.childNode(1));
         heure = heure.replace("\u00A0", "").trim(); // Espace insecable pourri
         result.setDateHeure(LocalDateTime.parse(eventDate + "T" + heure));
+        
         result.setVille(ville);
         result.setProvince(province);
         result.setEmpire(empire);
+        
+        if (ville.isPresent()) {
+            this.datas.addVilles(ville.get());
+        }
+        if (province.isPresent()) {
+            this.datas.addProvinces(province.get());
+        }
+        if (empire.isPresent()) {
+            this.datas.addEmpire(empire.get());    
+        }
+
         return result;
     }
+    
+    /**
+     * get cybermonde data with empire, province and ville found
+     * @return
+     */
+    public CybermondeDatas getDatas() {
+        return datas;
+    }
+
 
 }

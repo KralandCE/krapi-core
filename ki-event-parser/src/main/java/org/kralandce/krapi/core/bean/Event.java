@@ -1,6 +1,7 @@
 package org.kralandce.krapi.core.bean;
 
 import java.time.LocalDateTime;
+import java.util.Optional;
 
 /**
  * What an event look like
@@ -11,9 +12,9 @@ import java.time.LocalDateTime;
 public class Event {
 
     private LocalDateTime dateHeure;
-    private String empire;
-    private String province;
-    private String ville;
+    private Optional<String> empire;
+    private Optional<String> province;
+    private Optional<String> ville;
     private String data;
 
     public LocalDateTime getDateHeure() {
@@ -24,27 +25,27 @@ public class Event {
         this.dateHeure = dateHeure;
     }
 
-    public String getEmpire() {
+    public Optional<String> getEmpire() {
         return empire;
     }
 
-    public void setEmpire(String empire) {
+    public void setEmpire(Optional<String> empire) {
         this.empire = empire;
     }
 
-    public String getProvince() {
+    public Optional<String> getProvince() {
         return province;
     }
 
-    public void setProvince(String province) {
+    public void setProvince(Optional<String> province) {
         this.province = province;
     }
 
-    public String getVille() {
+    public Optional<String> getVille() {
         return ville;
     }
 
-    public void setVille(String ville) {
+    public void setVille(Optional<String> ville) {
         this.ville = ville;
     }
 
