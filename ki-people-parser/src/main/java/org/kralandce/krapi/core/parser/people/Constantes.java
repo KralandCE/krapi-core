@@ -13,6 +13,10 @@ public final class Constantes {
 
     public static String[] PROFILE_TAG = { "sex", "level", "fonction", "area", "dom", "money", "resp" };
      
+    public static final String TAG_PEOPLE = "item";
+    public static final String TAG_TITLE = "title";
     
-    
+    public static final String TAG_ID = "id";
+    public static final String TAG_NAME = "name";
+    public static final String TAG_AVATAR = "link";
 }

@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.Optional;
 
 import org.jsoup.nodes.Document;
@@ -55,16 +56,16 @@ public class PeopleParser {
      */
     private PeopleList parse(Document doc) {
         PeopleList peopleList = new PeopleList();
-        Elements els = doc.getElementsByTag("title");
+        Elements els = doc.getElementsByTag(Constantes.TAG_TITLE);
         String title = "";
         if (els.size() >= 1) {
             title = Util.getText(els.get(0));
         }
         logger.info(title);
         peopleList.setTitle(title);
-        Elements peopls = doc.getElementsByTag("item");
+        Elements peopls = doc.getElementsByTag(Constantes.TAG_PEOPLE);
         for (Element e : peopls) {
-            if (e.childNodeSize() > 2) {
+            if (e.getElementsByTag(Constantes.TAG_ID).size() > 0) {
                 peopleList.add(parsePeople(e));
             }
         }
@@ -83,9 +84,9 @@ public class PeopleParser {
         int id = 0;
         String avatar = "";
         
-        name = get(el, "name").get();
-        id = Util.parseInt(get(el, "id").get(), 0);
-        avatar = get(el, "link").get();
+        name = get(el, Constantes.TAG_NAME).get();
+        id = Util.parseInt(get(el, Constantes.TAG_ID).get(), 0);
+        avatar = get(el, Constantes.TAG_AVATAR).get();
         
         p.setNom(name);
         p.setId(id);
