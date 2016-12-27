@@ -9,7 +9,7 @@ public final class Constantes {
     public static final String OTHER_PREFIX = "list";
     public static final String SUFFIX = ".xml";
     
-    public static String[] PEOPLE_SEX = { "Asexué", "homme", "Femme" };
+    public static String[] PEOPLE_SEX = { "AsexuÃ©", "homme", "Femme" };
 
     public static String[] PROFILE_TAG = { "sex", "level", "fonction", "area", "dom", "money", "resp" };
      

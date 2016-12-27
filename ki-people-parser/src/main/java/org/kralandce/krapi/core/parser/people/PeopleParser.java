@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.NoSuchElementException;
 import java.util.Optional;
 
 import org.jsoup.nodes.Document;
@@ -35,7 +34,7 @@ public class PeopleParser {
     public List<PeopleList> proceed() throws MalformedURLException, IOException {
         List<PeopleList> result = new ArrayList<PeopleList>();
 
-        // On construit les liens vers les listes pour les récupérer
+        // On construit les liens vers les listes pour les rÃ©cupÃ©rer
         for (int i = 8; i <= Constantes.NB_EMPIRE_LIST; i++) {
             Document doc = Util.getDocument(Constantes.PATH + Constantes.CIT_PREFIX + i + Constantes.SUFFIX);
             result.add(parse(doc));
@@ -61,7 +60,7 @@ public class PeopleParser {
         if (els.size() >= 1) {
             title = Util.getText(els.get(0));
         }
-        logger.info(title);
+        logger.debug(title);
         peopleList.setTitle(title);
         Elements peopls = doc.getElementsByTag(Constantes.TAG_PEOPLE);
         for (Element e : peopls) {
@@ -99,7 +98,7 @@ public class PeopleParser {
             }
         }
         
-        logger.info(Util.toPrettyJson(p));
+        logger.debug(Util.toPrettyJson(p));
         return p;
     }
     
@@ -114,7 +113,7 @@ public class PeopleParser {
         Optional<String> result = Optional.empty();
         if (ells.size() > 0) {
             result = Optional.of(Util.getText(ells.get(0)));
-            // Si le noeud qu'on a ramené ne contient rien, c'est qu'on a récupéré le mauvais, donc suivant
+            // Si le noeud qu'on a ramenÃ¨ne contient rien, c'est qu'on a recupere le mauvais, donc suivant
             // pb sur les noeuds area et link
             if ("".equalsIgnoreCase(result.get())) {
                 result = Optional.of(Util.getText(ells.get(0).nextSibling()));
