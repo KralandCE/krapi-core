@@ -1,6 +1,9 @@
 package org.kralandce.krapi.core.parser.event;
 
+import java.io.BufferedWriter;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.OutputStreamWriter;
 import java.net.MalformedURLException;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -15,6 +18,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
 import org.jsoup.select.Elements;
 import org.kralandce.krapi.core.AuthentificationParam;
+import org.kralandce.krapi.core.CommonConst;
 import org.kralandce.krapi.core.PropertiesHandler;
 import org.kralandce.krapi.core.Util;
 import org.kralandce.krapi.core.bean.CybermondeDatas;
@@ -221,7 +225,16 @@ public class EventParser {
         }
         
         logger.info("NB event: " + events.getEvents().size());
-        logger.info((Util.toPrettyJson(events)));
+        //logger.info((Util.toPrettyJson(events)));
+        
+        
+        String fichier = "ki-event-" + date.toString();
+        
+        BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(
+                new FileOutputStream(fichier), CommonConst.UTF_8));
+        writer.write((Util.toPrettyJson(events)));
+        writer.close();
+        
     }
 
 
