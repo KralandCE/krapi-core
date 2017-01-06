@@ -1,22 +1,18 @@
 package org.kralandce.krapi.core;
 
-import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.Map;
-
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import org.jsoup.Connection;
-import org.jsoup.Jsoup;
 import org.jsoup.Connection.Method;
+import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Node;
-import org.kralandce.krapi.core.CommonConst;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
+import java.io.IOException;
+import java.net.URL;
+import java.util.Map;
 
 
 /**
@@ -25,9 +21,9 @@ import com.google.gson.GsonBuilder;
  *
  */
 public class Util {
-	
+
     final static Logger logger = LoggerFactory.getLogger(Util.class);
-    
+
 	// private
 	private Util() {
 	}
@@ -45,15 +41,15 @@ public class Util {
 		if (node.childNodes().size() == 0) {
 			return Jsoup.parse(node.toString()).text();
 		}
-		
+
 		String result = "";
 		for (Node no : node.childNodes()) {
 			result +=getFullText(no) + " ";
 		}
-		
+
 		return result.trim();
 	}
-	
+
 	public static float parseFloat(String ss) {
 		float result = 0f;
 
@@ -104,18 +100,17 @@ public class Util {
 		return gson.toJson(oo);
 	}
 
-	public static Document getDocument(String url) throws MalformedURLException, IOException {
+	public static Document getDocument(String url) throws IOException {
 		return Jsoup.parse(new URL(url).openStream(), CommonConst.ISO, url);
 	}
-	
-	
-    /**
+
+	/**
      * Get an object connection with referer and cookie setted
      * @param url url to get
      * @param cookies cookies for the new connection
-     * @param referer 
-     * @return a connection 
-     */
+	 * @param referer
+	 * @return a connection
+	 */
     public static Connection getConnection(String url, Map<String, String> cookies, String referer) {
         Connection result = null;
         result = Jsoup.connect(url).method(Method.GET).header("Host", CommonConst.HOST_KRALAND);
@@ -129,8 +124,8 @@ public class Util {
         }
         return result;
     }
-	
-    /**
+
+	/**
      * Handle authentification if needed for cookie
      * @return
      * @throws IOException
@@ -147,7 +142,7 @@ public class Util {
         }
         Map<String, String> cookies = res.cookies();
 
-        logger.debug("cookies: ", cookies);
-        return cookies;
+		logger.debug("cookies: {}", cookies);
+		return cookies;
     }
 }
