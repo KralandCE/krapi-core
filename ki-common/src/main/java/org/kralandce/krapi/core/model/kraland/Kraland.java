@@ -167,11 +167,12 @@ public final class Kraland {
     }
 
     public static final class AccountName {
-        public static final AccountName EMPTY = of("");
         private final String name;
 
         private AccountName(String accountName) {
-            this.name = checkNotNull(accountName);
+            checkNotNull(accountName);
+            checkArgument(!accountName.isEmpty());
+            this.name = accountName;
         }
 
         public static AccountName of(String accountName) {
@@ -199,11 +200,12 @@ public final class Kraland {
     }
 
     public static final class NationName {
-        public static final NationName EMPTY = of("");
         private final String name;
 
         private NationName(String nationName) {
-            this.name = checkNotNull(nationName);
+            checkNotNull(nationName);
+            checkArgument(!nationName.isEmpty());
+            this.name = nationName;
         }
 
         public static NationName of(String nationName) {
@@ -231,7 +233,6 @@ public final class Kraland {
     }
 
     public static final class AbbreviatedNationName {
-        public static final AbbreviatedNationName EMPTY = of("");
         private final String name;
 
         private AbbreviatedNationName(String nationName) {
@@ -267,11 +268,12 @@ public final class Kraland {
     }
 
     public static final class ProvinceName {
-        public static final ProvinceName EMPTY = of("");
         private final String name;
 
         private ProvinceName(String provinceName) {
-            this.name = checkNotNull(provinceName);
+            checkNotNull(provinceName);
+            checkArgument(!provinceName.isEmpty());
+            this.name = provinceName;
         }
 
         public static ProvinceName of(String provinceName) {
@@ -299,11 +301,12 @@ public final class Kraland {
     }
 
     public static final class CityName {
-        public static final CityName EMPTY = of("");
         private final String name;
 
         private CityName(String cityName) {
-            this.name = checkNotNull(cityName);
+            checkNotNull(cityName);
+            checkArgument(!cityName.isEmpty());
+            this.name = cityName;
         }
 
         public static CityName of(String cityName) {
@@ -331,11 +334,12 @@ public final class Kraland {
     }
 
     public static final class GenderName {
-        public static final GenderName EMPTY = of("");
         private final String name;
 
         private GenderName(String genderName) {
-            this.name = checkNotNull(genderName);
+            checkNotNull(genderName);
+            checkArgument(!genderName.isEmpty());
+            this.name = genderName;
         }
 
         public static GenderName of(String genderName) {
