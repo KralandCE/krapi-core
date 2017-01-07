@@ -18,6 +18,7 @@ public final class ImmutableKPeople implements KPeople {
     private final MKAccount.PermissionLevel accountPermissionLevel;
     private final MKSex.Identifier sexIdentifier;
     private final MKJob.Identifier jobIdentifier;
+    private final MKJob.AccumulatedLevel jobAccumulatedLevel;
     private final MKJob.Area jobArea;
     private final MKCity.Identifier cityAddressIdentifier;
     private final MKCharacter.WealthLevel characterWealthLevel;
@@ -29,6 +30,7 @@ public final class ImmutableKPeople implements KPeople {
         this.accountPermissionLevel = builder.accountPermissionLevel;
         this.sexIdentifier = builder.sexIdentifier;
         this.jobIdentifier = builder.jobIdentifier;
+        this.jobAccumulatedLevel = builder.jobAccumulatedLevel;
         this.jobArea = builder.jobArea;
         this.cityAddressIdentifier = builder.cityAddressIdentifier;
         this.characterWealthLevel = builder.characterWealthLevel;
@@ -69,6 +71,11 @@ public final class ImmutableKPeople implements KPeople {
     }
 
     @Override
+    public Optional<MKJob.AccumulatedLevel> getJobAccumulatedLevel() {
+        return Optional.ofNullable(this.jobAccumulatedLevel);
+    }
+
+    @Override
     public Optional<MKJob.Area> getJobArea() {
         return Optional.ofNullable(this.jobArea);
     }
@@ -90,6 +97,7 @@ public final class ImmutableKPeople implements KPeople {
         private MKAccount.PermissionLevel accountPermissionLevel;
         private MKSex.Identifier sexIdentifier;
         private MKJob.Identifier jobIdentifier;
+        private MKJob.AccumulatedLevel jobAccumulatedLevel;
         private MKJob.Area jobArea;
         private MKCity.Identifier cityAddressIdentifier;
         private MKCharacter.WealthLevel characterWealthLevel;
@@ -103,6 +111,7 @@ public final class ImmutableKPeople implements KPeople {
             this.accountPermissionLevel = null;
             this.sexIdentifier = null;
             this.jobIdentifier = null;
+            this.jobAccumulatedLevel = null;
             this.jobArea = null;
             this.cityAddressIdentifier = null;
             this.characterWealthLevel = null;
@@ -131,6 +140,10 @@ public final class ImmutableKPeople implements KPeople {
 
         public void setJobIdentifier(MKJob.Identifier identifier) {
             this.jobIdentifier = identifier;
+        }
+
+        public void setJobAccumulatedLevel(MKJob.AccumulatedLevel accumulatedLevel) {
+            this.jobAccumulatedLevel = accumulatedLevel;
         }
 
         public void setJobArea(MKJob.Area area) {

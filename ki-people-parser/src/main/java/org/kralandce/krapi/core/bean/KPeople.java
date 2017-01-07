@@ -22,6 +22,8 @@ public interface KPeople {
 
     public Optional<MKJob.Identifier> getJobIdentifier();
 
+    public Optional<MKJob.AccumulatedLevel> getJobAccumulatedLevel();
+
     public Optional<MKJob.Area> getJobArea();
 
     public Optional<MKCity.Identifier> getCityAddressIdentifier();
