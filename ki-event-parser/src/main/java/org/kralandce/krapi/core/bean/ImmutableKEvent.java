@@ -1,8 +1,9 @@
 package org.kralandce.krapi.core.bean;
 
-import org.kralandce.krapi.core.model.event.KEvent;
-import org.kralandce.krapi.core.model.event.KralandEvent;
-import org.kralandce.krapi.core.model.kraland.Kraland;
+import org.kralandce.krapi.core.model.kraland.MKCity;
+import org.kralandce.krapi.core.model.kraland.MKEvent;
+import org.kralandce.krapi.core.model.kraland.MKNation;
+import org.kralandce.krapi.core.model.kraland.MKProvince;
 
 import java.util.Optional;
 
@@ -13,12 +14,12 @@ import static com.google.common.base.Preconditions.checkState;
  */
 public final class ImmutableKEvent implements KEvent {
 
-    private final Kraland.NationName nation;
-    private final Kraland.ProvinceName province;
-    private final Kraland.CityName city;
-    private final KralandEvent.Content data;
-    private final KralandEvent.Type type;
-    private final KralandEvent.Date date;
+    private final MKNation.Name nation;
+    private final MKProvince.Name province;
+    private final MKCity.Name city;
+    private final MKEvent.Content data;
+    private final MKEvent.Type type;
+    private final MKEvent.Date date;
 
     private ImmutableKEvent(Builder builder) {
         this.date = builder.date;
@@ -34,42 +35,42 @@ public final class ImmutableKEvent implements KEvent {
     }
 
     @Override
-    public Optional<Kraland.NationName> getNation() {
+    public Optional<MKNation.Name> getNation() {
         return Optional.ofNullable(this.nation);
     }
 
     @Override
-    public Optional<Kraland.ProvinceName> getProvince() {
+    public Optional<MKProvince.Name> getProvince() {
         return Optional.ofNullable(this.province);
     }
 
     @Override
-    public Optional<Kraland.CityName> getCity() {
+    public Optional<MKCity.Name> getCity() {
         return Optional.ofNullable(this.city);
     }
 
     @Override
-    public Optional<KralandEvent.Type> getType() {
+    public Optional<MKEvent.Type> getType() {
         return Optional.ofNullable(this.type);
     }
 
     @Override
-    public Optional<KralandEvent.Content> getContent() {
+    public Optional<MKEvent.Content> getContent() {
         return Optional.ofNullable(this.data);
     }
 
     @Override
-    public Optional<KralandEvent.Date> getDate() {
+    public Optional<MKEvent.Date> getDate() {
         return Optional.ofNullable(this.date);
     }
 
     public static final class Builder {
-        private Kraland.NationName nation;
-        private Kraland.ProvinceName province;
-        private Kraland.CityName city;
-        private KralandEvent.Content data;
-        private KralandEvent.Type type;
-        private KralandEvent.Date date;
+        private MKNation.Name nation;
+        private MKProvince.Name province;
+        private MKCity.Name city;
+        private MKEvent.Content data;
+        private MKEvent.Type type;
+        private MKEvent.Date date;
 
         private boolean build;
 
@@ -83,27 +84,27 @@ public final class ImmutableKEvent implements KEvent {
             this.build = false;
         }
 
-        public void setDate(KralandEvent.Date eventDate) {
+        public void setDate(MKEvent.Date eventDate) {
             this.date = eventDate;
         }
 
-        public void setNation(Kraland.NationName eventNation) {
+        public void setNation(MKNation.Name eventNation) {
             this.nation = eventNation;
         }
 
-        public void setProvince(Kraland.ProvinceName eventProvince) {
+        public void setProvince(MKProvince.Name eventProvince) {
             this.province = eventProvince;
         }
 
-        public void setCity(Kraland.CityName eventCity) {
+        public void setCity(MKCity.Name eventCity) {
             this.city = eventCity;
         }
 
-        public void setData(KralandEvent.Content eventData) {
+        public void setData(MKEvent.Content eventData) {
             this.data = eventData;
         }
 
-        public void setType(KralandEvent.Type eventType) {
+        public void setType(MKEvent.Type eventType) {
             this.type = eventType;
         }
 
