@@ -15,9 +15,6 @@ import java.util.function.Function;
 import static com.google.common.base.Preconditions.checkNotNull;
 import static com.google.common.base.Preconditions.checkState;
 
-/**
- * @author Ricorei
- */
 public final class KHttpClient {
 
     private final static Logger logger = LoggerFactory.getLogger(KHttpClient.class);

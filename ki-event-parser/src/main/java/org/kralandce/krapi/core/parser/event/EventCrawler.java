@@ -11,9 +11,6 @@ import org.slf4j.LoggerFactory;
 
 import java.util.Optional;
 
-/**
- * @author Ricorei
- */
 public final class EventCrawler {
 
     private final static Logger logger = LoggerFactory.getLogger(EventCrawler.class);

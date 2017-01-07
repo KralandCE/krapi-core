@@ -2,9 +2,6 @@ package org.kralandce.krapi.core.model.kraland;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
-/**
- * @author Ricorei
- */
 public final class MKJob {
     private MKJob() {
 

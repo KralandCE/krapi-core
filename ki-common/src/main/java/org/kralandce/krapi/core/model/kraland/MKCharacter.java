@@ -1,8 +1,5 @@
 package org.kralandce.krapi.core.model.kraland;
 
-/**
- * @author Ricorei
- */
 public final class MKCharacter {
     private MKCharacter() {
 

@@ -4,9 +4,6 @@ import java.time.LocalDateTime;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
-/**
- * @author Ricorei
- */
 public final class MKEvent {
     private MKEvent() {
 

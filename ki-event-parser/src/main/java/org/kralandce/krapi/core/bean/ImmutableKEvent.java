@@ -9,9 +9,6 @@ import java.util.Optional;
 
 import static com.google.common.base.Preconditions.checkState;
 
-/**
- * @author Ricorei
- */
 public final class ImmutableKEvent implements KEvent {
 
     private final MKNation.Name nation;

@@ -7,9 +7,6 @@ import org.kralandce.krapi.core.model.kraland.MKProvince;
 
 import java.util.Optional;
 
-/**
- * @author Ricorei
- */
 public interface KEvent {
 
     public Optional<MKNation.Name> getNation();
