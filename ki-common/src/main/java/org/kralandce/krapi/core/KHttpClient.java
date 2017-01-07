@@ -70,6 +70,7 @@ public final class KHttpClient {
         this.cookies.clear();
         this.referrer = null;
         this.currentPage = null;
+        this.currentResult = null;
     }
 
     private void execute(String url) {
