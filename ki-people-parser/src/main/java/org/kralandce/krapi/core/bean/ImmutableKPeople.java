@@ -3,6 +3,7 @@ package org.kralandce.krapi.core.bean;
 import org.kralandce.krapi.core.model.kraland.MKAccount;
 import org.kralandce.krapi.core.model.kraland.MKCity;
 import org.kralandce.krapi.core.model.kraland.MKJob;
+import org.kralandce.krapi.core.model.kraland.MKNation;
 import org.kralandce.krapi.core.model.kraland.MKSex;
 import org.kralandce.krapi.core.model.kraland.MKWealth;
 
@@ -21,6 +22,7 @@ public final class ImmutableKPeople implements KPeople {
     private final MKJob.AccumulatedLevel jobAccumulatedLevel;
     private final MKJob.Area jobArea;
     private final MKCity.Identifier cityAddressIdentifier;
+    private final MKNation.Identifier nationAddressIdentifier;
     private final MKWealth.Level characterWealthLevel;
 
     private ImmutableKPeople(Builder builder) {
@@ -33,6 +35,7 @@ public final class ImmutableKPeople implements KPeople {
         this.jobAccumulatedLevel = builder.jobAccumulatedLevel;
         this.jobArea = builder.jobArea;
         this.cityAddressIdentifier = builder.cityAddressIdentifier;
+        this.nationAddressIdentifier = builder.nationAddressIdentifier;
         this.characterWealthLevel = builder.characterWealthLevel;
     }
 
@@ -86,6 +89,11 @@ public final class ImmutableKPeople implements KPeople {
     }
 
     @Override
+    public Optional<MKNation.Identifier> getNationAddressIdentifier() {
+        return Optional.ofNullable(this.nationAddressIdentifier);
+    }
+
+    @Override
     public Optional<MKWealth.Level> getCharacterWealthLevel() {
         return Optional.ofNullable(this.characterWealthLevel);
     }
@@ -100,6 +108,7 @@ public final class ImmutableKPeople implements KPeople {
         private MKJob.AccumulatedLevel jobAccumulatedLevel;
         private MKJob.Area jobArea;
         private MKCity.Identifier cityAddressIdentifier;
+        private MKNation.Identifier nationAddressIdentifier;
         private MKWealth.Level characterWealthLevel;
 
         private boolean build;
@@ -114,6 +123,7 @@ public final class ImmutableKPeople implements KPeople {
             this.jobAccumulatedLevel = null;
             this.jobArea = null;
             this.cityAddressIdentifier = null;
+            this.nationAddressIdentifier = null;
             this.characterWealthLevel = null;
             this.build = false;
         }
@@ -130,8 +140,8 @@ public final class ImmutableKPeople implements KPeople {
             this.accountAvatarURL = avatarURL;
         }
 
-        public void setAccountPermissionLevel(MKAccount.PermissionLevel permissionLevel) {
-            this.accountPermissionLevel = permissionLevel;
+        public void setAccountPermissionLevel(MKAccount.PermissionLevel level) {
+            this.accountPermissionLevel = level;
         }
 
         public void setSexIdentifier(MKSex.Identifier identifier) {
@@ -152,6 +162,10 @@ public final class ImmutableKPeople implements KPeople {
 
         public void setCityAddressIdentifier(MKCity.Identifier identifier) {
             this.cityAddressIdentifier = identifier;
+        }
+
+        public void setNationAddressIdentifier(MKNation.Identifier identifier) {
+            this.nationAddressIdentifier = identifier;
         }
 
         public void setCharacterWealthLevel(MKWealth.Level wealthLevel) {

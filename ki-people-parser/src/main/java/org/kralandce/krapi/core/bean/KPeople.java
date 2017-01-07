@@ -3,6 +3,7 @@ package org.kralandce.krapi.core.bean;
 import org.kralandce.krapi.core.model.kraland.MKAccount;
 import org.kralandce.krapi.core.model.kraland.MKCity;
 import org.kralandce.krapi.core.model.kraland.MKJob;
+import org.kralandce.krapi.core.model.kraland.MKNation;
 import org.kralandce.krapi.core.model.kraland.MKSex;
 import org.kralandce.krapi.core.model.kraland.MKWealth;
 
@@ -27,6 +28,8 @@ public interface KPeople {
     public Optional<MKJob.Area> getJobArea();
 
     public Optional<MKCity.Identifier> getCityAddressIdentifier();
+
+    public Optional<MKNation.Identifier> getNationAddressIdentifier();
 
     public Optional<MKWealth.Level> getCharacterWealthLevel();
 }
