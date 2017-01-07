@@ -99,4 +99,35 @@ public final class MKJob {
             return this.id;
         }
     }
+
+    public static final class Area {
+        private final int area;
+
+        private Area(int jobArea) {
+            this.area = jobArea;
+        }
+
+        public static Area of(int value) {
+            return new Area(value);
+        }
+
+        public int asInt() {
+            return this.area;
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            if( this == o ) return true;
+            if( o == null || getClass() != o.getClass() ) return false;
+
+            Area that = (Area) o;
+
+            return this.area == that.area;
+        }
+
+        @Override
+        public int hashCode() {
+            return this.area;
+        }
+    }
 }
