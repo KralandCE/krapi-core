@@ -1,10 +1,10 @@
 package org.kralandce.krapi.core.bean;
 
 import org.kralandce.krapi.core.model.kraland.MKAccount;
-import org.kralandce.krapi.core.model.kraland.MKCharacter;
 import org.kralandce.krapi.core.model.kraland.MKCity;
 import org.kralandce.krapi.core.model.kraland.MKJob;
 import org.kralandce.krapi.core.model.kraland.MKSex;
+import org.kralandce.krapi.core.model.kraland.MKWealth;
 
 import java.util.Optional;
 
@@ -28,5 +28,5 @@ public interface KPeople {
 
     public Optional<MKCity.Identifier> getCityAddressIdentifier();
 
-    public Optional<MKCharacter.WealthLevel> getCharacterWealthLevel();
+    public Optional<MKWealth.Level> getCharacterWealthLevel();
 }

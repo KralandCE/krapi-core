@@ -1,10 +1,10 @@
 package org.kralandce.krapi.core.bean;
 
 import org.kralandce.krapi.core.model.kraland.MKAccount;
-import org.kralandce.krapi.core.model.kraland.MKCharacter;
 import org.kralandce.krapi.core.model.kraland.MKCity;
 import org.kralandce.krapi.core.model.kraland.MKJob;
 import org.kralandce.krapi.core.model.kraland.MKSex;
+import org.kralandce.krapi.core.model.kraland.MKWealth;
 
 import java.util.Optional;
 
@@ -21,7 +21,7 @@ public final class ImmutableKPeople implements KPeople {
     private final MKJob.AccumulatedLevel jobAccumulatedLevel;
     private final MKJob.Area jobArea;
     private final MKCity.Identifier cityAddressIdentifier;
-    private final MKCharacter.WealthLevel characterWealthLevel;
+    private final MKWealth.Level characterWealthLevel;
 
     private ImmutableKPeople(Builder builder) {
         this.accountIdentifier = builder.accountIdentifier;
@@ -86,7 +86,7 @@ public final class ImmutableKPeople implements KPeople {
     }
 
     @Override
-    public Optional<MKCharacter.WealthLevel> getCharacterWealthLevel() {
+    public Optional<MKWealth.Level> getCharacterWealthLevel() {
         return Optional.ofNullable(this.characterWealthLevel);
     }
 
@@ -100,7 +100,7 @@ public final class ImmutableKPeople implements KPeople {
         private MKJob.AccumulatedLevel jobAccumulatedLevel;
         private MKJob.Area jobArea;
         private MKCity.Identifier cityAddressIdentifier;
-        private MKCharacter.WealthLevel characterWealthLevel;
+        private MKWealth.Level characterWealthLevel;
 
         private boolean build;
 
@@ -154,7 +154,7 @@ public final class ImmutableKPeople implements KPeople {
             this.cityAddressIdentifier = identifier;
         }
 
-        public void setCharacterWealthLevel(MKCharacter.WealthLevel wealthLevel) {
+        public void setCharacterWealthLevel(MKWealth.Level wealthLevel) {
             this.characterWealthLevel = wealthLevel;
         }
 

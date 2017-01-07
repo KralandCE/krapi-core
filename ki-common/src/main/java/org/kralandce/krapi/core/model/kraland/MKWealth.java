@@ -1,19 +1,19 @@
 package org.kralandce.krapi.core.model.kraland;
 
-public final class MKCharacter {
-    private MKCharacter() {
+public final class MKWealth {
+    private MKWealth() {
 
     }
 
-    public static final class WealthLevel {
+    public static final class Level {
         private final int level;
 
-        private WealthLevel(int wealthLevel) {
+        private Level(int wealthLevel) {
             this.level = wealthLevel;
         }
 
-        public static WealthLevel of(int value) {
-            return new WealthLevel(value);
+        public static Level of(int value) {
+            return new Level(value);
         }
 
         public int asInt() {
@@ -25,7 +25,7 @@ public final class MKCharacter {
             if( this == o ) return true;
             if( o == null || getClass() != o.getClass() ) return false;
 
-            WealthLevel that = (WealthLevel) o;
+            Level that = (Level) o;
 
             return this.level == that.level;
         }
