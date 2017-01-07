@@ -8,6 +8,7 @@ import static com.google.common.base.Preconditions.checkNotNull;
 /**
  * @author Ricorei
  */
+@Deprecated
 public final class KralandEvent {
     private KralandEvent() {
 

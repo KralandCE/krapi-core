@@ -21,6 +21,7 @@ import static com.google.common.base.Preconditions.checkNotNull;
  *
  * @author Ricorei
  */
+@Deprecated
 public final class Kraland {
     private Kraland() {
 
