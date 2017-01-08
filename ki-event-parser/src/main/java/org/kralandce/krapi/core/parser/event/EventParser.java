@@ -248,6 +248,10 @@ public class EventParser {
         Event result = new Event();
         Node loca = node.childNode(0);
 
+        // TODO hello-gitty à terme remplacer l'event par l'immutable
+        //ImmutableKEvent.Builder builder = ImmutableKEvent.builder();
+                
+        
         Optional<String> empire = Optional.empty();
         Optional<String> province = Optional.empty();
         Optional<String> ville = Optional.empty();
@@ -271,8 +275,22 @@ public class EventParser {
             ville = Optional.of(Util.getText(loca.childNode(2)));
         }
         
-        result.setData(node.childNode(2).toString());
+        String data = node.childNode(2).toString();
+        
+        String type = "Undefined";
+        if (data.startsWith(Constantes.TD_EVENT_ANIM)) {
+            data = data.substring(Constantes.TD_EVENT_ANIM.length());
+            type = "anim";
+        } else if ( data.startsWith(Constantes.TD_EVENT_NORMAL)) {
+            data = data.substring(Constantes.TD_EVENT_NORMAL.length());
+            type = "normal";
+        }
+        data = data.substring(0, data.length() - 5);
 
+        result.setData(data);
+        result.setType(type);
+        
+        
         String heure = Util.getText(node.childNode(1));
         heure = heure.replace("\u00A0", "").trim(); // Espace insecable pourri
         result.setDateHeure(LocalDateTime.parse(eventDate + "T" + heure));

@@ -15,6 +15,7 @@ public class Event {
     private Optional<String> empire;
     private Optional<String> province;
     private Optional<String> ville;
+    private String type;
     private String data;
 
     public LocalDateTime getDateHeure() {
@@ -57,4 +58,14 @@ public class Event {
         this.data = data;
     }
 
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    
+    
 }
