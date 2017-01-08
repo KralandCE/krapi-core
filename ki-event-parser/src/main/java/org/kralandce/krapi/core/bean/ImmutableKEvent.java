@@ -11,7 +11,7 @@ import static com.google.common.base.Preconditions.checkState;
 
 public final class ImmutableKEvent implements KEvent {
 
-    private final MKNation.Name nation;
+    private final MKNation.Identifier nation;
     private final MKProvince.Name province;
     private final MKCity.Name city;
     private final MKEvent.Content data;
@@ -32,7 +32,7 @@ public final class ImmutableKEvent implements KEvent {
     }
 
     @Override
-    public Optional<MKNation.Name> getNation() {
+    public Optional<MKNation.Identifier> getNation() {
         return Optional.ofNullable(this.nation);
     }
 
@@ -62,7 +62,7 @@ public final class ImmutableKEvent implements KEvent {
     }
 
     public static final class Builder {
-        private MKNation.Name nation;
+        private MKNation.Identifier nation;
         private MKProvince.Name province;
         private MKCity.Name city;
         private MKEvent.Content data;
@@ -85,7 +85,7 @@ public final class ImmutableKEvent implements KEvent {
             this.date = eventDate;
         }
 
-        public void setNation(MKNation.Name eventNation) {
+        public void setNation(MKNation.Identifier eventNation) {
             this.nation = eventNation;
         }
 

@@ -9,7 +9,7 @@ import java.util.Optional;
 
 public interface KEvent {
 
-    public Optional<MKNation.Name> getNation();
+    public Optional<MKNation.Identifier> getNation();
 
     public Optional<MKProvince.Name> getProvince();
 
