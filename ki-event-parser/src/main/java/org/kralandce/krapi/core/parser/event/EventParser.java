@@ -277,15 +277,20 @@ public class EventParser {
         
         String data = node.childNode(2).toString();
         
-        String type = "Undefined";
+        String type = null;
         if (data.startsWith(Constantes.TD_EVENT_ANIM)) {
             data = data.substring(Constantes.TD_EVENT_ANIM.length());
             type = "anim";
         } else if ( data.startsWith(Constantes.TD_EVENT_NORMAL)) {
             data = data.substring(Constantes.TD_EVENT_NORMAL.length());
             type = "normal";
+        } else if ( data.startsWith(Constantes.TD_EVENT_MAJ)) {
+            data = data.substring(Constantes.TD_EVENT_MAJ.length());
+            type = "maj";
         }
-        data = data.substring(0, data.length() - 5);
+        if (type != null) {
+            data = data.substring(0, data.length() - 5);
+        }
 
         result.setData(data);
         result.setType(type);

@@ -6033,8 +6033,8 @@
         "value": "Australine"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Australine récolte 13 PO d\u0027impôts."
+      "type": "maj",
+      "data": "La province Australine récolte 13 PO d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6059,8 +6059,8 @@
       "ville": {
         "value": "Camp des Bagnards"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Camp des Bagnards récolte 13 PO d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Camp des Bagnards récolte 13 PO d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6081,8 +6081,8 @@
       },
       "province": {},
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLe Royaume de Ruthvénie récolte 1334 Co d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Roi 67 Co, Ministère de la Guerre 0 Co, Ministère de la Justice 0 Co, Ministère des Affaires Etrangères 67 Co, Ministère de l\u0027Economie 734 Co, Ministère de la Recherche 334 Co, Ministère de l\u0027Intérieur 67 Co, Ministère de l\u0027Information 0 Co, Ministère des Services Secrets 65 Co, Ministère du Travail 0 Co."
+      "type": "maj",
+      "data": "Le Royaume de Ruthvénie récolte 1334 Co d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Roi 67 Co, Ministère de la Guerre 0 Co, Ministère de la Justice 0 Co, Ministère des Affaires Etrangères 67 Co, Ministère de l\u0027Economie 734 Co, Ministère de la Recherche 334 Co, Ministère de l\u0027Intérieur 67 Co, Ministère de l\u0027Information 0 Co, Ministère des Services Secrets 65 Co, Ministère du Travail 0 Co."
     },
     {
       "dateHeure": {
@@ -6105,8 +6105,8 @@
         "value": "Valégro"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Valégro récolte 418 Co d\u0027impôts."
+      "type": "maj",
+      "data": "La province Valégro récolte 418 Co d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6131,8 +6131,8 @@
       "ville": {
         "value": "Nouvelle Volupté"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Nouvelle Volupté récolte 180 Co d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Nouvelle Volupté récolte 180 Co d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6157,8 +6157,8 @@
       "ville": {
         "value": "Dograde"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Dograde récolte 238 Co d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Dograde récolte 238 Co d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6181,8 +6181,8 @@
         "value": "Ruthvénie"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Ruthvénie récolte 466 Co d\u0027impôts."
+      "type": "maj",
+      "data": "La province Ruthvénie récolte 466 Co d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6207,8 +6207,8 @@
       "ville": {
         "value": "Ruthvenville"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Ruthvenville récolte 253 Co d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Ruthvenville récolte 253 Co d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6233,8 +6233,8 @@
       "ville": {
         "value": "Monte-Oktavio"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Monte-Oktavio récolte 213 Co d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Monte-Oktavio récolte 213 Co d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6257,8 +6257,8 @@
         "value": "Moldavie"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Moldavie récolte 246 Co d\u0027impôts."
+      "type": "maj",
+      "data": "La province Moldavie récolte 246 Co d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6283,8 +6283,8 @@
       "ville": {
         "value": "Champs de Patates"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Champs de Patates récolte 135 Co d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Champs de Patates récolte 135 Co d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6309,8 +6309,8 @@
       "ville": {
         "value": "Adalbograd"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Adalbograd récolte 111 Co d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Adalbograd récolte 111 Co d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6333,8 +6333,8 @@
         "value": "Karénie"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Karénie récolte 427 Co d\u0027impôts."
+      "type": "maj",
+      "data": "La province Karénie récolte 427 Co d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6359,8 +6359,8 @@
       "ville": {
         "value": "Confluence"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Confluence récolte 154 Co d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Confluence récolte 154 Co d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6385,8 +6385,8 @@
       "ville": {
         "value": "Bottine"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Bottine récolte 273 Co d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Bottine récolte 273 Co d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6407,8 +6407,8 @@
       },
       "province": {},
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa Confédération Libre récolte 2067 ¢¢ d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Présidence 207 ¢¢, Ministère de la Guerre 0 ¢¢, Ministère de la Justice 165 ¢¢, Ministère des Affaires Etrangères 165 ¢¢, Ministère de l\u0027Economie 165 ¢¢, Ministère de la Recherche 1034 ¢¢, Ministère de l\u0027Intérieur 165 ¢¢, Ministère de l\u0027Information 0 ¢¢, Ministère des Services Secrets 165 ¢¢, Ministère du Travail 0 ¢¢."
+      "type": "maj",
+      "data": "La Confédération Libre récolte 2067 ¢¢ d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Présidence 207 ¢¢, Ministère de la Guerre 0 ¢¢, Ministère de la Justice 165 ¢¢, Ministère des Affaires Etrangères 165 ¢¢, Ministère de l\u0027Economie 165 ¢¢, Ministère de la Recherche 1034 ¢¢, Ministère de l\u0027Intérieur 165 ¢¢, Ministère de l\u0027Information 0 ¢¢, Ministère des Services Secrets 165 ¢¢, Ministère du Travail 0 ¢¢."
     },
     {
       "dateHeure": {
@@ -6431,8 +6431,8 @@
         "value": "Acropole"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Acropole récolte 816 ¢¢ d\u0027impôts."
+      "type": "maj",
+      "data": "La province Acropole récolte 816 ¢¢ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6457,8 +6457,8 @@
       "ville": {
         "value": "Forum"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Forum récolte 671 ¢¢ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Forum récolte 671 ¢¢ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6483,8 +6483,8 @@
       "ville": {
         "value": "Pirée"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Pirée récolte 145 ¢¢ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Pirée récolte 145 ¢¢ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6507,8 +6507,8 @@
         "value": "Justiciat"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Justiciat récolte 437 ¢¢ d\u0027impôts."
+      "type": "maj",
+      "data": "La province Justiciat récolte 437 ¢¢ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6533,8 +6533,8 @@
       "ville": {
         "value": "Greffe"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Greffe récolte 202 ¢¢ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Greffe récolte 202 ¢¢ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6559,8 +6559,8 @@
       "ville": {
         "value": "Tribunal Cybermondial"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Tribunal Cybermondial récolte 235 ¢¢ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Tribunal Cybermondial récolte 235 ¢¢ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6583,8 +6583,8 @@
         "value": "Sakrista"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Sakrista récolte 465 ¢¢ d\u0027impôts."
+      "type": "maj",
+      "data": "La province Sakrista récolte 465 ¢¢ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6609,8 +6609,8 @@
       "ville": {
         "value": "Bauhaus"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Bauhaus récolte 381 ¢¢ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Bauhaus récolte 381 ¢¢ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6635,8 +6635,8 @@
       "ville": {
         "value": "Requiem"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Requiem récolte 84 ¢¢ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Requiem récolte 84 ¢¢ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6659,8 +6659,8 @@
         "value": "Structurie"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Structurie récolte 692 ¢¢ d\u0027impôts."
+      "type": "maj",
+      "data": "La province Structurie récolte 692 ¢¢ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6685,8 +6685,8 @@
       "ville": {
         "value": "Déstructural"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Déstructural récolte 178 ¢¢ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Déstructural récolte 178 ¢¢ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6711,8 +6711,8 @@
       "ville": {
         "value": "Structural"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Structural récolte 514 ¢¢ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Structural récolte 514 ¢¢ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6733,8 +6733,8 @@
       },
       "province": {},
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLe Khanat Elmérien récolte 0 ÐE d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Grand Khan 0 ÐE, Ministère de la Guerre 0 ÐE, Ministère de la Justice 0 ÐE, Ministère des Affaires Etrangères 0 ÐE, Ministère de l\u0027Economie 0 ÐE, Ministère de la Recherche 0 ÐE, Ministère de l\u0027Intérieur 0 ÐE, Ministère de l\u0027Information 0 ÐE, Ministère des Services Secrets 0 ÐE, Ministère du Travail 0 ÐE."
+      "type": "maj",
+      "data": "Le Khanat Elmérien récolte 0 ÐE d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Grand Khan 0 ÐE, Ministère de la Guerre 0 ÐE, Ministère de la Justice 0 ÐE, Ministère des Affaires Etrangères 0 ÐE, Ministère de l\u0027Economie 0 ÐE, Ministère de la Recherche 0 ÐE, Ministère de l\u0027Intérieur 0 ÐE, Ministère de l\u0027Information 0 ÐE, Ministère des Services Secrets 0 ÐE, Ministère du Travail 0 ÐE."
     },
     {
       "dateHeure": {
@@ -6757,8 +6757,8 @@
         "value": "Underground"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Underground récolte 0 ÐE d\u0027impôts."
+      "type": "maj",
+      "data": "La province Underground récolte 0 ÐE d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6783,8 +6783,8 @@
       "ville": {
         "value": "Quasar"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Quasar récolte 0 ÐE d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Quasar récolte 0 ÐE d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6805,8 +6805,8 @@
       },
       "province": {},
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLe Paradigme Vert récolte 0 Éf d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Régent 0 Éf, Ministère de la Guerre 0 Éf, Ministère de la Justice 0 Éf, Ministère des Affaires Etrangères 0 Éf, Ministère de l\u0027Economie 0 Éf, Ministère de la Recherche 0 Éf, Ministère de l\u0027Intérieur 0 Éf, Ministère de l\u0027Information 0 Éf, Ministère des Services Secrets 0 Éf, Ministère du Travail 0 Éf."
+      "type": "maj",
+      "data": "Le Paradigme Vert récolte 0 Éf d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Régent 0 Éf, Ministère de la Guerre 0 Éf, Ministère de la Justice 0 Éf, Ministère des Affaires Etrangères 0 Éf, Ministère de l\u0027Economie 0 Éf, Ministère de la Recherche 0 Éf, Ministère de l\u0027Intérieur 0 Éf, Ministère de l\u0027Information 0 Éf, Ministère des Services Secrets 0 Éf, Ministère du Travail 0 Éf."
     },
     {
       "dateHeure": {
@@ -6829,8 +6829,8 @@
         "value": "Krapathes"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Krapathes récolte 0 Éf d\u0027impôts."
+      "type": "maj",
+      "data": "La province Krapathes récolte 0 Éf d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6855,8 +6855,8 @@
       "ville": {
         "value": "Bamboutopia"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Bamboutopia récolte 0 Éf d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Bamboutopia récolte 0 Éf d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6877,8 +6877,8 @@
       },
       "province": {},
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa Théocratie Seelienne récolte 0 N¥ d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Celui qui Guide 0 N¥, Ministère de la Guerre 0 N¥, Ministère de la Justice 0 N¥, Ministère des Affaires Etrangères 0 N¥, Ministère de l\u0027Economie 0 N¥, Ministère de la Recherche 0 N¥, Ministère de l\u0027Intérieur 0 N¥, Ministère de l\u0027Information 0 N¥, Ministère des Services Secrets 0 N¥, Ministère du Travail 0 N¥."
+      "type": "maj",
+      "data": "La Théocratie Seelienne récolte 0 N¥ d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Celui qui Guide 0 N¥, Ministère de la Guerre 0 N¥, Ministère de la Justice 0 N¥, Ministère des Affaires Etrangères 0 N¥, Ministère de l\u0027Economie 0 N¥, Ministère de la Recherche 0 N¥, Ministère de l\u0027Intérieur 0 N¥, Ministère de l\u0027Information 0 N¥, Ministère des Services Secrets 0 N¥, Ministère du Travail 0 N¥."
     },
     {
       "dateHeure": {
@@ -6901,8 +6901,8 @@
         "value": "Dogma"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Dogma récolte 0 N¥ d\u0027impôts."
+      "type": "maj",
+      "data": "La province Dogma récolte 0 N¥ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6927,8 +6927,8 @@
       "ville": {
         "value": "Adam"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Adam récolte 0 N¥ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Adam récolte 0 N¥ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6949,8 +6949,8 @@
       },
       "province": {},
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa Palladium Corporation récolte 2315 P$ d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Direction du Conseil Restreint 0 P$, Ministère de la Guerre 0 P$, Ministère de la Justice 0 P$, Ministère des Affaires Etrangères 0 P$, Ministère de l\u0027Economie 2315 P$, Ministère de la Recherche 0 P$, Ministère de l\u0027Intérieur 0 P$, Ministère de l\u0027Information 0 P$, Ministère des Services Secrets 0 P$, Ministère du Travail 0 P$."
+      "type": "maj",
+      "data": "La Palladium Corporation récolte 2315 P$ d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Direction du Conseil Restreint 0 P$, Ministère de la Guerre 0 P$, Ministère de la Justice 0 P$, Ministère des Affaires Etrangères 0 P$, Ministère de l\u0027Economie 2315 P$, Ministère de la Recherche 0 P$, Ministère de l\u0027Intérieur 0 P$, Ministère de l\u0027Information 0 P$, Ministère des Services Secrets 0 P$, Ministère du Travail 0 P$."
     },
     {
       "dateHeure": {
@@ -6973,8 +6973,8 @@
         "value": "Caraïbes"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Caraïbes récolte 766 P$ d\u0027impôts."
+      "type": "maj",
+      "data": "La province Caraïbes récolte 766 P$ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -6999,8 +6999,8 @@
       "ville": {
         "value": "Les Îles Sandwich"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Les Îles Sandwich récolte 193 P$ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Les Îles Sandwich récolte 193 P$ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -7025,8 +7025,8 @@
       "ville": {
         "value": "Trésorville"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Trésorville récolte 573 P$ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Trésorville récolte 573 P$ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -7049,8 +7049,8 @@
         "value": "Hélénie"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Hélénie récolte 256 P$ d\u0027impôts."
+      "type": "maj",
+      "data": "La province Hélénie récolte 256 P$ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -7075,8 +7075,8 @@
       "ville": {
         "value": "Ni-Ni"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Ni-Ni récolte 84 P$ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Ni-Ni récolte 84 P$ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -7101,8 +7101,8 @@
       "ville": {
         "value": "Bisouville"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Bisouville récolte 172 P$ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Bisouville récolte 172 P$ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -7125,8 +7125,8 @@
         "value": "Palladium-City"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Palladium-City récolte 994 P$ d\u0027impôts."
+      "type": "maj",
+      "data": "La province Palladium-City récolte 994 P$ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -7151,8 +7151,8 @@
       "ville": {
         "value": "Secteur Restreint"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Secteur Restreint récolte 755 P$ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Secteur Restreint récolte 755 P$ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -7177,8 +7177,8 @@
       "ville": {
         "value": "Secteur Portuaire"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Secteur Portuaire récolte 239 P$ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Secteur Portuaire récolte 239 P$ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -7201,8 +7201,8 @@
         "value": "Bananie"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Bananie récolte 685 P$ d\u0027impôts."
+      "type": "maj",
+      "data": "La province Bananie récolte 685 P$ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -7227,8 +7227,8 @@
       "ville": {
         "value": "Distillerie"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Distillerie récolte 367 P$ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Distillerie récolte 367 P$ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -7253,8 +7253,8 @@
       "ville": {
         "value": "Triangle d\u0027Or"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Triangle d\u0027Or récolte 318 P$ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Triangle d\u0027Or récolte 318 P$ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -7275,8 +7275,8 @@
       },
       "province": {},
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eL\u0027Empire Brun récolte 0 MØ d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Empereur Brun 0 MØ, Ministère de la Guerre 0 MØ, Ministère de la Justice 0 MØ, Ministère des Affaires Etrangères 0 MØ, Ministère de l\u0027Economie 0 MØ, Ministère de la Recherche 0 MØ, Ministère de l\u0027Intérieur 0 MØ, Ministère de l\u0027Information 0 MØ, Ministère des Services Secrets 0 MØ, Ministère du Travail 0 MØ."
+      "type": "maj",
+      "data": "L\u0027Empire Brun récolte 0 MØ d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Empereur Brun 0 MØ, Ministère de la Guerre 0 MØ, Ministère de la Justice 0 MØ, Ministère des Affaires Etrangères 0 MØ, Ministère de l\u0027Economie 0 MØ, Ministère de la Recherche 0 MØ, Ministère de l\u0027Intérieur 0 MØ, Ministère de l\u0027Information 0 MØ, Ministère des Services Secrets 0 MØ, Ministère du Travail 0 MØ."
     },
     {
       "dateHeure": {
@@ -7297,8 +7297,8 @@
       },
       "province": {},
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa République de Kraland récolte 2442 FK d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Premier Ministre 244 FK, Ministère de la Guerre 244 FK, Ministère de la Justice 244 FK, Ministère des Affaires Etrangères 122 FK, Ministère de l\u0027Economie 488 FK, Ministère de la Recherche 244 FK, Ministère de l\u0027Intérieur 244 FK, Ministère de l\u0027Information 244 FK, Ministère des Services Secrets 244 FK, Ministère du Travail 122 FK."
+      "type": "maj",
+      "data": "La République de Kraland récolte 2442 FK d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Premier Ministre 244 FK, Ministère de la Guerre 244 FK, Ministère de la Justice 244 FK, Ministère des Affaires Etrangères 122 FK, Ministère de l\u0027Economie 488 FK, Ministère de la Recherche 244 FK, Ministère de l\u0027Intérieur 244 FK, Ministère de l\u0027Information 244 FK, Ministère des Services Secrets 244 FK, Ministère du Travail 122 FK."
     },
     {
       "dateHeure": {
@@ -7321,8 +7321,8 @@
         "value": "Vallée Pourpre"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Vallée Pourpre récolte 1306 FK d\u0027impôts."
+      "type": "maj",
+      "data": "La province Vallée Pourpre récolte 1306 FK d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -7347,8 +7347,8 @@
       "ville": {
         "value": "Montagne Rouge"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Montagne Rouge récolte 984 FK d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Montagne Rouge récolte 984 FK d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -7373,8 +7373,8 @@
       "ville": {
         "value": "Pourproville"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Pourproville récolte 322 FK d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Pourproville récolte 322 FK d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -7397,8 +7397,8 @@
         "value": "Slavonie"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Slavonie récolte 412 FK d\u0027impôts."
+      "type": "maj",
+      "data": "La province Slavonie récolte 412 FK d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -7423,8 +7423,8 @@
       "ville": {
         "value": "Koukouroukoukou"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Koukouroukoukou récolte 141 FK d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Koukouroukoukou récolte 141 FK d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -7449,8 +7449,8 @@
       "ville": {
         "value": "Gynerak"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Gynerak récolte 271 FK d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Gynerak récolte 271 FK d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -7473,8 +7473,8 @@
         "value": "Gradistan"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Gradistan récolte 155 FK d\u0027impôts."
+      "type": "maj",
+      "data": "La province Gradistan récolte 155 FK d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -7499,8 +7499,8 @@
       "ville": {
         "value": "Astrakran"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Astrakran récolte 9 FK d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Astrakran récolte 9 FK d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -7525,8 +7525,8 @@
       "ville": {
         "value": "Krakov"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Krakov récolte 146 FK d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Krakov récolte 146 FK d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -7549,8 +7549,8 @@
         "value": "Kraland"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Kraland récolte 976 FK d\u0027impôts."
+      "type": "maj",
+      "data": "La province Kraland récolte 976 FK d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -7575,8 +7575,8 @@
       "ville": {
         "value": "Quartier Suprême"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Quartier Suprême récolte 297 FK d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Quartier Suprême récolte 297 FK d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -7601,8 +7601,8 @@
       "ville": {
         "value": "Quartier sur les Eaux"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Quartier sur les Eaux récolte 679 FK d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Quartier sur les Eaux récolte 679 FK d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -7621,8 +7621,8 @@
       "empire": {},
       "province": {},
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eIl se murmure que la relique \u003cstrong\u003eSiège Sacré de Naar\u003c/strong\u003e aurait fait sa réapparition dans le cybermonde."
+      "type": "maj",
+      "data": "Il se murmure que la relique \u003cstrong\u003eSiège Sacré de Naar\u003c/strong\u003e aurait fait sa réapparition dans le cybermonde."
     },
     {
       "dateHeure": {

@@ -23,9 +23,7 @@
       "ville": {
         "value": "Ruthvenville"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Celegórn Deléndil vient d\u0027arriver dans la ville Ruthvenville. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d24326\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d24326\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -47,9 +45,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Ukyo a obtenu la récompense \u003cb\u003eRuban Brun\u003c/b\u003e et peut poursuivre sa carrière dans l\u0027Empire Brun."
     },
     {
@@ -75,9 +71,7 @@
       "ville": {
         "value": "Quasar"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Laquatus vient d\u0027arriver dans la ville Quasar. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d13651\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d13651\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -99,9 +93,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Hanabi S. Najimus a obtenu la récompense \u003cb\u003eRuban Bicolore\u003c/b\u003e et peut poursuivre sa carrière dans le Royaume de Ruthvénie."
     },
     {
@@ -127,9 +119,7 @@
       "ville": {
         "value": "Krakov"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Iska vient d\u0027arriver dans la ville Krakov. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d73088\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d73088\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -155,9 +145,7 @@
       "ville": {
         "value": "Quasar"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "okosan vient d\u0027arriver dans la ville Quasar. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d20513\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d20513\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -179,9 +167,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Manouel Voulls a obtenu la récompense \u003cb\u003eRuban Jaune\u003c/b\u003e et peut poursuivre sa carrière dans la Palladium Corporation."
     },
     {
@@ -207,9 +193,7 @@
       "ville": {
         "value": "Secteur Portuaire"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Maître Pithon vient d\u0027arriver dans la ville Secteur Portuaire. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d76652\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d76652\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -231,9 +215,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Histamine \u003cimg src\u003d\"http://img.kraland.org/s/4F.gif\" alt\u003d\"[*b]\" align\u003d\"middle\" border\u003d\"0\"\u003e a obtenu la récompense \u003cb\u003eRuban Jaune\u003c/b\u003e et peut poursuivre sa carrière dans la Palladium Corporation."
     },
     {
@@ -259,9 +241,7 @@
       "ville": {
         "value": "Greffe"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Melrise vient d\u0027arriver dans la ville Greffe. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d76273\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d76273\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -287,9 +267,7 @@
       "ville": {
         "value": "Distillerie"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Verdandi Greenleaf vient d\u0027arriver dans la ville Distillerie. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d20195\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d20195\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -315,9 +293,7 @@
       "ville": {
         "value": "Ruthvenville"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Chado vient d\u0027arriver dans la ville Ruthvenville. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d26094\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d26094\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -339,9 +315,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Docteur Von Zlig a obtenu la récompense \u003cb\u003eRuban Rouge\u003c/b\u003e et peut poursuivre sa carrière dans la République de Kraland."
     },
     {
@@ -363,9 +337,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Nørd Ike a obtenu la récompense \u003cb\u003eRuban Mauve\u003c/b\u003e et peut poursuivre sa carrière dans le Khanat Elmérien."
     },
     {
@@ -391,9 +363,7 @@
       "ville": {
         "value": "Trésorville"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Maddow\u003cimg src\u003d\"http://img.kraland.org/s/49.gif\" alt\u003d\"[*t]\" align\u003d\"middle\" border\u003d\"0\"\u003eQuinn\u003cimg src\u003d\"http://img.kraland.org/s/4C.gif\" alt\u003d\"[*r]\" align\u003d\"middle\" border\u003d\"0\"\u003e vient d\u0027arriver dans la ville Trésorville. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d70278\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d70278\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -419,9 +389,7 @@
       "ville": {
         "value": "Secteur Restreint"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Captain TN vient d\u0027arriver dans la ville Secteur Restreint. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d42545\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d42545\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -443,9 +411,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Natalya a obtenu la récompense \u003cb\u003eRuban Rouge\u003c/b\u003e et peut poursuivre sa carrière dans la République de Kraland."
     },
     {
@@ -467,9 +433,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "\u003cimg src\u003d\"http://img.kraland.org/s/4C.gif\" alt\u003d\"[*r]\" align\u003d\"middle\" border\u003d\"0\"\u003eHéra Deathnote\u003cimg src\u003d\"http://img.kraland.org/s/51.gif\" alt\u003d\"[*n]\" align\u003d\"middle\" border\u003d\"0\"\u003e a obtenu la récompense \u003cb\u003eRuban Mauve\u003c/b\u003e et peut poursuivre sa carrière dans le Khanat Elmérien."
     },
     {
@@ -491,9 +455,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Bachir Bouzouk a obtenu la récompense \u003cb\u003eRuban Jaune\u003c/b\u003e et peut poursuivre sa carrière dans la Palladium Corporation."
     },
     {
@@ -515,9 +477,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Nerdos\u003cimg src\u003d\"http://img.kraland.org/s/51.gif\" alt\u003d\"[*n]\" align\u003d\"middle\" border\u003d\"0\"\u003eValkyry a obtenu la récompense \u003cb\u003eRuban Vert\u003c/b\u003e et peut poursuivre sa carrière dans le Paradigme Vert."
     },
     {
@@ -543,9 +503,7 @@
       "ville": {
         "value": "Bauhaus"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Cormac Cartilage vient d\u0027arriver dans la ville Bauhaus. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d24622\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d24622\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -571,9 +529,7 @@
       "ville": {
         "value": "Quasar"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Nørd Ike vient d\u0027arriver dans la ville Quasar. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d55608\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d55608\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -599,9 +555,7 @@
       "ville": {
         "value": "Tribunal Cybermondial"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Tripy vient d\u0027arriver dans la ville Tribunal Cybermondial. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d10258\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d10258\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -627,9 +581,7 @@
       "ville": {
         "value": "Montagne Rouge"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Natalya vient d\u0027arriver dans la ville Montagne Rouge. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d31916\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d31916\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -655,9 +607,7 @@
       "ville": {
         "value": "Dograde"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Rarity vient d\u0027arriver dans la ville Dograde. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d64172\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d64172\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -683,9 +633,7 @@
       "ville": {
         "value": "Quasar"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Lekhlayrée vient d\u0027arriver dans la ville Quasar. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d36925\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d36925\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -707,9 +655,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Lysbeth a obtenu la récompense \u003cb\u003eRuban Rouge\u003c/b\u003e et peut poursuivre sa carrière dans la République de Kraland."
     },
     {
@@ -735,9 +681,7 @@
       "ville": {
         "value": "Koukouroukoukou"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "DeadP\u003cimg src\u003d\"http://img.kraland.org/s/12.gif\" alt\u003d\"[%(]\" align\u003d\"middle\" border\u003d\"0\"\u003eule vient d\u0027arriver dans la ville Koukouroukoukou. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d40732\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d40732\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -763,9 +707,7 @@
       "ville": {
         "value": "Quasar"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "\u003cimg src\u003d\"http://img.kraland.org/s/4C.gif\" alt\u003d\"[*r]\" align\u003d\"middle\" border\u003d\"0\"\u003eHéra Deathnote\u003cimg src\u003d\"http://img.kraland.org/s/51.gif\" alt\u003d\"[*n]\" align\u003d\"middle\" border\u003d\"0\"\u003e vient d\u0027arriver dans la ville Quasar. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d29071\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d29071\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -791,9 +733,7 @@
       "ville": {
         "value": "Monte-Oktavio"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Hanabi S. Najimus vient d\u0027arriver dans la ville Monte-Oktavio. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d75399\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d75399\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -815,9 +755,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Otvär Tagùl a obtenu la récompense \u003cb\u003eRuban Mauve\u003c/b\u003e et peut poursuivre sa carrière dans le Khanat Elmérien."
     },
     {
@@ -843,9 +781,7 @@
       "ville": {
         "value": "Montagne Rouge"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Docteur Von Zlig vient d\u0027arriver dans la ville Montagne Rouge. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d1927\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d1927\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -871,9 +807,7 @@
       "ville": {
         "value": "Quartier sur les Eaux"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Lysbeth vient d\u0027arriver dans la ville Quartier sur les Eaux. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d13187\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d13187\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -899,9 +833,7 @@
       "ville": {
         "value": "Quasar"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Lady Menolly vient d\u0027arriver dans la ville Quasar. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d21278\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d21278\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -927,9 +859,7 @@
       "ville": {
         "value": "Quasar"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "pentaclus vient d\u0027arriver dans la ville Quasar. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d24620\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d24620\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -951,9 +881,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Feuforia \u003cimg src\u003d\"http://img.kraland.org/s/51.gif\" alt\u003d\"[*n]\" align\u003d\"middle\" border\u003d\"0\"\u003e a obtenu la récompense \u003cb\u003eRuban Bicolore\u003c/b\u003e et peut poursuivre sa carrière dans le Royaume de Ruthvénie."
     },
     {
@@ -979,9 +907,7 @@
       "ville": {
         "value": "Forum"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Ji Seung Rozen vient d\u0027arriver dans la ville Forum. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d40262\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d40262\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -1007,9 +933,7 @@
       "ville": {
         "value": "Nouvelle Volupté"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Tasuné de Jade O\u0027Ambar vient d\u0027arriver dans la ville Nouvelle Volupté. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d76407\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d76407\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -1031,9 +955,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Lenny Krad a obtenu la récompense \u003cb\u003eRuban Jaune\u003c/b\u003e et peut poursuivre sa carrière dans la Palladium Corporation."
     },
     {
@@ -1055,9 +977,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Gnä a obtenu la récompense \u003cb\u003eRuban Mauve\u003c/b\u003e et peut poursuivre sa carrière dans le Khanat Elmérien."
     },
     {
@@ -1083,9 +1003,7 @@
       "ville": {
         "value": "Quasar"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Dimitri Ozmanovitch vient d\u0027arriver dans la ville Quasar. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d37885\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d37885\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -1111,9 +1029,7 @@
       "ville": {
         "value": "Quasar"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Clamidia vient d\u0027arriver dans la ville Quasar. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d54966\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d54966\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -1139,9 +1055,7 @@
       "ville": {
         "value": "Quasar"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Killie\u003cimg src\u003d\"http://img.kraland.org/s/2F.gif\" alt\u003d\"[:.]\" align\u003d\"middle\" border\u003d\"0\"\u003e vient d\u0027arriver dans la ville Quasar. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d43763\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d43763\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -1167,9 +1081,7 @@
       "ville": {
         "value": "Secteur Restreint"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Lenny Krad vient d\u0027arriver dans la ville Secteur Restreint. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d1857\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d1857\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -1195,9 +1107,7 @@
       "ville": {
         "value": "Quasar"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Otvär Tagùl vient d\u0027arriver dans la ville Quasar. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d65587\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d65587\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -1223,9 +1133,7 @@
       "ville": {
         "value": "Pirée"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Capitaine Davy Jones vient d\u0027arriver dans la ville Pirée. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d81879\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d81879\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -1251,9 +1159,7 @@
       "ville": {
         "value": "Secteur Portuaire"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Manouel Voulls vient d\u0027arriver dans la ville Secteur Portuaire. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d68564\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d68564\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -1275,9 +1181,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Lunor a obtenu la récompense \u003cb\u003eRuban Rouge\u003c/b\u003e et peut poursuivre sa carrière dans la République de Kraland."
     },
     {
@@ -1303,9 +1207,7 @@
       "ville": {
         "value": "Confluence"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Ukyo vient d\u0027arriver dans la ville Confluence. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d41556\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d41556\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -1331,9 +1233,7 @@
       "ville": {
         "value": "Monte-Oktavio"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Feuforia \u003cimg src\u003d\"http://img.kraland.org/s/51.gif\" alt\u003d\"[*n]\" align\u003d\"middle\" border\u003d\"0\"\u003e vient d\u0027arriver dans la ville Monte-Oktavio. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d73492\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d73492\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -1359,9 +1259,7 @@
       "ville": {
         "value": "Gynerak"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Morus vient d\u0027arriver dans la ville Gynerak. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d76384\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d76384\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -1383,9 +1281,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Dr Albert\u003cimg src\u003d\"http://img.kraland.org/s/68.gif\" alt\u003d\"[\u003dk]\" align\u003d\"middle\" border\u003d\"0\"\u003eO.S.\u003cimg src\u003d\"http://img.kraland.org/s/66.gif\" alt\u003d\"[\u003d)]\" align\u003d\"middle\" border\u003d\"0\"\u003eCoeur a obtenu la récompense \u003cb\u003eRuban Brun\u003c/b\u003e et peut poursuivre sa carrière dans l\u0027Empire Brun."
     },
     {
@@ -1411,9 +1307,7 @@
       "ville": {
         "value": "Krakov"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Ceydrich Gordon vient d\u0027arriver dans la ville Krakov. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d81841\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d81841\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -1435,9 +1329,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Saphir \u003cimg src\u003d\"http://img.kraland.org/s/51.gif\" alt\u003d\"[*n]\" align\u003d\"middle\" border\u003d\"0\"\u003e Valkyry a obtenu la récompense \u003cb\u003eRuban Vert\u003c/b\u003e et peut poursuivre sa carrière dans le Paradigme Vert."
     },
     {
@@ -1463,9 +1355,7 @@
       "ville": {
         "value": "Trésorville"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Winëlócë vient d\u0027arriver dans la ville Trésorville. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d54937\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d54937\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -1491,9 +1381,7 @@
       "ville": {
         "value": "Bamboutopia"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Eustache de Talleyrand vient d\u0027arriver dans la ville Bamboutopia. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d79971\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d79971\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -1519,9 +1407,7 @@
       "ville": {
         "value": "Montagne Rouge"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Signe Sang Songe vient d\u0027arriver dans la ville Montagne Rouge. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d48585\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d48585\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -1547,9 +1433,7 @@
       "ville": {
         "value": "Quartier sur les Eaux"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Bélisaire\u003cimg src\u003d\"http://img.kraland.org/s/1B.gif\" alt\u003d\"[[(]\" align\u003d\"middle\" border\u003d\"0\"\u003e vient d\u0027arriver dans la ville Quartier sur les Eaux. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d39081\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d39081\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -1575,9 +1459,7 @@
       "ville": {
         "value": "Bamboutopia"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Rahula vient d\u0027arriver dans la ville Bamboutopia. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d59411\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d59411\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -1603,9 +1485,7 @@
       "ville": {
         "value": "Quartier Suprême"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Dr Albert\u003cimg src\u003d\"http://img.kraland.org/s/68.gif\" alt\u003d\"[\u003dk]\" align\u003d\"middle\" border\u003d\"0\"\u003eO.S.\u003cimg src\u003d\"http://img.kraland.org/s/66.gif\" alt\u003d\"[\u003d)]\" align\u003d\"middle\" border\u003d\"0\"\u003eCoeur vient d\u0027arriver dans la ville Quartier Suprême. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d76318\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d76318\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -1631,9 +1511,7 @@
       "ville": {
         "value": "Bamboutopia"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Fortuna\u003cimg src\u003d\"http://img.kraland.org/s/51.gif\" alt\u003d\"[*n]\" align\u003d\"middle\" border\u003d\"0\"\u003eVampirikra vient d\u0027arriver dans la ville Bamboutopia. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d54126\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d54126\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -1659,9 +1537,7 @@
       "ville": {
         "value": "Quasar"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Syd le Pokramon vient d\u0027arriver dans la ville Quasar. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d76282\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d76282\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -1687,9 +1563,7 @@
       "ville": {
         "value": "Bamboutopia"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Saphir \u003cimg src\u003d\"http://img.kraland.org/s/51.gif\" alt\u003d\"[*n]\" align\u003d\"middle\" border\u003d\"0\"\u003e Valkyry vient d\u0027arriver dans la ville Bamboutopia. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d35765\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d35765\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -1715,9 +1589,7 @@
       "ville": {
         "value": "Gynerak"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Dwight Doe vient d\u0027arriver dans la ville Gynerak. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d18335\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d18335\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -1743,9 +1615,7 @@
       "ville": {
         "value": "Quasar"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Mètre Guy\u0027ms\u003cimg src\u003d\"http://img.kraland.org/s/4C.gif\" alt\u003d\"[*r]\" align\u003d\"middle\" border\u003d\"0\"\u003e vient d\u0027arriver dans la ville Quasar. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d13695\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d13695\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -1771,9 +1641,7 @@
       "ville": {
         "value": "Forum"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Khalim Perator vient d\u0027arriver dans la ville Forum. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d81878\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d81878\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -1799,9 +1667,7 @@
       "ville": {
         "value": "Nouvelle Volupté"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Shaira vient d\u0027arriver dans la ville Nouvelle Volupté. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d49869\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d49869\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -1827,9 +1693,7 @@
       "ville": {
         "value": "Quasar"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Fantôme de Roy vient d\u0027arriver dans la ville Quasar. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d72537\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d72537\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -1851,9 +1715,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Sher Lock a obtenu la récompense \u003cb\u003eRuban Bicolore\u003c/b\u003e et peut poursuivre sa carrière dans le Royaume de Ruthvénie."
     },
     {
@@ -1875,9 +1737,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Le Masque de Fer a obtenu la récompense \u003cb\u003eRuban Bicolore\u003c/b\u003e et peut poursuivre sa carrière dans le Royaume de Ruthvénie."
     },
     {
@@ -1899,9 +1759,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Merry a obtenu la récompense \u003cb\u003eRuban Rouge\u003c/b\u003e et peut poursuivre sa carrière dans la République de Kraland."
     },
     {
@@ -1927,9 +1785,7 @@
       "ville": {
         "value": "Secteur Portuaire"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Jonah vient d\u0027arriver dans la ville Secteur Portuaire. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d81862\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d81862\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -1955,9 +1811,7 @@
       "ville": {
         "value": "Ruthvenville"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Chav Al-Qädir\u003cimg src\u003d\"http://img.kraland.org/s/51.gif\" alt\u003d\"[*n]\" align\u003d\"middle\" border\u003d\"0\"\u003eBakker vient d\u0027arriver dans la ville Ruthvenville. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d44406\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d44406\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -1983,9 +1837,7 @@
       "ville": {
         "value": "Montagne Rouge"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Féodor vient d\u0027arriver dans la ville Montagne Rouge. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d52249\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d52249\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -2007,9 +1859,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Lucas Szabo a obtenu la récompense \u003cb\u003eRuban Gris\u003c/b\u003e et peut poursuivre sa carrière dans la Confédération Libre."
     },
     {
@@ -2035,9 +1885,7 @@
       "ville": {
         "value": "Bauhaus"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Dick Graissé vient d\u0027arriver dans la ville Bauhaus. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d11957\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d11957\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -2063,9 +1911,7 @@
       "ville": {
         "value": "Ruthvenville"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Sher Lock vient d\u0027arriver dans la ville Ruthvenville. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d7283\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d7283\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -2091,9 +1937,7 @@
       "ville": {
         "value": "Secteur Restreint"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Maria W. vient d\u0027arriver dans la ville Secteur Restreint. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d81837\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d81837\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -2115,9 +1959,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Virgil Tibbs-Diagne a obtenu la récompense \u003cb\u003eRuban Gris\u003c/b\u003e et peut poursuivre sa carrière dans la Confédération Libre."
     },
     {
@@ -2139,9 +1981,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Yen a obtenu la récompense \u003cb\u003eRuban Gris\u003c/b\u003e et peut poursuivre sa carrière dans la Confédération Libre."
     },
     {
@@ -2167,9 +2007,7 @@
       "ville": {
         "value": "Trésorville"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Mortimer vient d\u0027arriver dans la ville Trésorville. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d76285\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d76285\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -2191,9 +2029,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "\u003cimg src\u003d\"http://img.kraland.org/s/4A.gif\" alt\u003d\"[*j]\" align\u003d\"middle\" border\u003d\"0\"\u003eChris des Etoiles\u003cimg src\u003d\"http://img.kraland.org/s/4A.gif\" alt\u003d\"[*j]\" align\u003d\"middle\" border\u003d\"0\"\u003e a obtenu la récompense \u003cb\u003eRuban Rouge\u003c/b\u003e et peut poursuivre sa carrière dans la République de Kraland."
     },
     {
@@ -2215,9 +2051,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Sami a obtenu la récompense \u003cb\u003eRuban Jaune\u003c/b\u003e et peut poursuivre sa carrière dans la Palladium Corporation."
     },
     {
@@ -2243,9 +2077,7 @@
       "ville": {
         "value": "Quasar"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Musachi Myamoto vient d\u0027arriver dans la ville Quasar. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d12373\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d12373\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -2271,9 +2103,7 @@
       "ville": {
         "value": "Quasar"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Kael Fillghyin vient d\u0027arriver dans la ville Quasar. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d1622\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d1622\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -2299,9 +2129,7 @@
       "ville": {
         "value": "Adam"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Calypsø vient d\u0027arriver dans la ville Adam. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d20856\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d20856\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -2327,9 +2155,7 @@
       "ville": {
         "value": "Champs de Patates"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Jean Claude vient d\u0027arriver dans la ville Champs de Patates. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d34871\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d34871\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -2355,9 +2181,7 @@
       "ville": {
         "value": "Quasar"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Gnä vient d\u0027arriver dans la ville Quasar. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d794\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d794\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -2379,9 +2203,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Jean d\u0027Ormont-Monde a obtenu la récompense \u003cb\u003eRuban Gris\u003c/b\u003e et peut poursuivre sa carrière dans la Confédération Libre."
     },
     {
@@ -2407,9 +2229,7 @@
       "ville": {
         "value": "Dograde"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Spinosaurus vient d\u0027arriver dans la ville Dograde. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d6095\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d6095\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -2435,9 +2255,7 @@
       "ville": {
         "value": "Quasar"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Meronym R.W. vient d\u0027arriver dans la ville Quasar. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d6\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d6\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -2459,9 +2277,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Mephala Najimus a obtenu la récompense \u003cb\u003eRuban Bicolore\u003c/b\u003e et peut poursuivre sa carrière dans le Royaume de Ruthvénie."
     },
     {
@@ -2487,9 +2303,7 @@
       "ville": {
         "value": "Dograde"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Kyp vient d\u0027arriver dans la ville Dograde. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d81830\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d81830\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -2515,9 +2329,7 @@
       "ville": {
         "value": "Confluence"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Mordak-Torkan\u003cimg src\u003d\"http://img.kraland.org/s/50.gif\" alt\u003d\"[*m]\" align\u003d\"middle\" border\u003d\"0\"\u003eBéDoH vient d\u0027arriver dans la ville Confluence. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d62262\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d62262\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -2543,9 +2355,7 @@
       "ville": {
         "value": "Requiem"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Mia\u003cimg src\u003d\"http://img.kraland.org/s/4D.gif\" alt\u003d\"[*v]\" align\u003d\"middle\" border\u003d\"0\"\u003ePlop vient d\u0027arriver dans la ville Requiem. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d81838\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d81838\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -2571,9 +2381,7 @@
       "ville": {
         "value": "Forum"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Aile vient d\u0027arriver dans la ville Forum. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d61359\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d61359\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -2599,9 +2407,7 @@
       "ville": {
         "value": "Krakov"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Merry vient d\u0027arriver dans la ville Krakov. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d16984\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d16984\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -2627,9 +2433,7 @@
       "ville": {
         "value": "Ruthvenville"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "PinkShadow vient d\u0027arriver dans la ville Ruthvenville. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d36916\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d36916\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -2655,9 +2459,7 @@
       "ville": {
         "value": "Koukouroukoukou"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Mandibule vient d\u0027arriver dans la ville Koukouroukoukou. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d73012\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d73012\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -2683,9 +2485,7 @@
       "ville": {
         "value": "Krakov"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Fightde Di Garamonde vient d\u0027arriver dans la ville Krakov. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d20289\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d20289\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -2711,9 +2511,7 @@
       "ville": {
         "value": "Montagne Rouge"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Yen vient d\u0027arriver dans la ville Montagne Rouge. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d61066\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d61066\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -2739,9 +2537,7 @@
       "ville": {
         "value": "Triangle d\u0027Or"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Histamine \u003cimg src\u003d\"http://img.kraland.org/s/4F.gif\" alt\u003d\"[*b]\" align\u003d\"middle\" border\u003d\"0\"\u003e vient d\u0027arriver dans la ville Triangle d\u0027Or. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d66883\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d66883\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -2767,9 +2563,7 @@
       "ville": {
         "value": "Forum"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Piaïrysdaïkra\u003cimg src\u003d\"http://img.kraland.org/s/4A.gif\" alt\u003d\"[*j]\" align\u003d\"middle\" border\u003d\"0\"\u003eTepes vient d\u0027arriver dans la ville Forum. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d2082\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d2082\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -2795,9 +2589,7 @@
       "ville": {
         "value": "Ruthvenville"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Anargyrose\u003cimg src\u003d\"http://img.kraland.org/s/66.gif\" alt\u003d\"[\u003d)]\" align\u003d\"middle\" border\u003d\"0\"\u003ePanagiotakis vient d\u0027arriver dans la ville Ruthvenville. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d27951\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d27951\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -2819,9 +2611,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Mina a obtenu la récompense \u003cb\u003eRuban Rouge\u003c/b\u003e et peut poursuivre sa carrière dans la République de Kraland."
     },
     {
@@ -2847,9 +2637,7 @@
       "ville": {
         "value": "Distillerie"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Smimy vient d\u0027arriver dans la ville Distillerie. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d59794\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d59794\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -2875,9 +2663,7 @@
       "ville": {
         "value": "Greffe"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Socratès vient d\u0027arriver dans la ville Greffe. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d81877\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d81877\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -2899,9 +2685,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Reynauld Lavaupot a obtenu la récompense \u003cb\u003eRuban Rouge\u003c/b\u003e et peut poursuivre sa carrière dans la République de Kraland."
     },
     {
@@ -2927,9 +2711,7 @@
       "ville": {
         "value": "Secteur Portuaire"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Leon Musc vient d\u0027arriver dans la ville Secteur Portuaire. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d47451\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d47451\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -2955,9 +2737,7 @@
       "ville": {
         "value": "Greffe"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Sénéyord vient d\u0027arriver dans la ville Greffe. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d81876\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d81876\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -2983,9 +2763,7 @@
       "ville": {
         "value": "Greffe"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Minion #1 vient d\u0027arriver dans la ville Greffe. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d60759\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d60759\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -3011,9 +2789,7 @@
       "ville": {
         "value": "Bamboutopia"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Nerdos\u003cimg src\u003d\"http://img.kraland.org/s/51.gif\" alt\u003d\"[*n]\" align\u003d\"middle\" border\u003d\"0\"\u003eValkyry vient d\u0027arriver dans la ville Bamboutopia. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d26372\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d26372\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -3039,9 +2815,7 @@
       "ville": {
         "value": "Distillerie"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Sami vient d\u0027arriver dans la ville Distillerie. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d28362\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d28362\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -3067,9 +2841,7 @@
       "ville": {
         "value": "Monte-Oktavio"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Wexka vient d\u0027arriver dans la ville Monte-Oktavio. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d10389\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d10389\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -3095,9 +2867,7 @@
       "ville": {
         "value": "Pourproville"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Gabin \u003cimg src\u003d\"http://img.kraland.org/s/51.gif\" alt\u003d\"[*n]\" align\u003d\"middle\" border\u003d\"0\"\u003e Mc Adam vient d\u0027arriver dans la ville Pourproville. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d80825\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d80825\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -3123,9 +2893,7 @@
       "ville": {
         "value": "Pourproville"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Aurore Cérès vient d\u0027arriver dans la ville Pourproville. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d76419\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d76419\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -3151,9 +2919,7 @@
       "ville": {
         "value": "Montagne Rouge"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Mina vient d\u0027arriver dans la ville Montagne Rouge. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d28617\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d28617\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -3179,9 +2945,7 @@
       "ville": {
         "value": "Forum"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Kekezekiller vient d\u0027arriver dans la ville Forum. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d50836\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d50836\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -3207,9 +2971,7 @@
       "ville": {
         "value": "Monte-Oktavio"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Mephala Najimus vient d\u0027arriver dans la ville Monte-Oktavio. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d4460\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d4460\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -3235,9 +2997,7 @@
       "ville": {
         "value": "Tribunal Cybermondial"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Lucas Szabo vient d\u0027arriver dans la ville Tribunal Cybermondial. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d41166\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d41166\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -3263,9 +3023,7 @@
       "ville": {
         "value": "Forum"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Neskaa Calypso vient d\u0027arriver dans la ville Forum. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d6576\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d6576\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -3287,9 +3045,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Zephkiel a obtenu la récompense \u003cb\u003eRuban Rouge\u003c/b\u003e et peut poursuivre sa carrière dans la République de Kraland."
     },
     {
@@ -3315,9 +3071,7 @@
       "ville": {
         "value": "Monte-Oktavio"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Le Masque de Fer vient d\u0027arriver dans la ville Monte-Oktavio. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d3330\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d3330\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -3343,9 +3097,7 @@
       "ville": {
         "value": "Tribunal Cybermondial"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Fergus vient d\u0027arriver dans la ville Tribunal Cybermondial. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d31913\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d31913\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -3371,9 +3123,7 @@
       "ville": {
         "value": "Greffe"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "The_Mastermind vient d\u0027arriver dans la ville Greffe. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d29145\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d29145\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -3399,9 +3149,7 @@
       "ville": {
         "value": "Greffe"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Minion #2 vient d\u0027arriver dans la ville Greffe. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d27207\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d27207\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -3427,9 +3175,7 @@
       "ville": {
         "value": "Montagne Rouge"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Katherina Petrova vient d\u0027arriver dans la ville Montagne Rouge. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d81813\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d81813\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -3455,9 +3201,7 @@
       "ville": {
         "value": "Pourproville"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Noster Barmu vient d\u0027arriver dans la ville Pourproville. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d81391\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d81391\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -3483,9 +3227,7 @@
       "ville": {
         "value": "Montagne Rouge"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Reynauld Lavaupot vient d\u0027arriver dans la ville Montagne Rouge. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d81236\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d81236\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -3511,9 +3253,7 @@
       "ville": {
         "value": "Koukouroukoukou"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "\u003cimg src\u003d\"http://img.kraland.org/s/4A.gif\" alt\u003d\"[*j]\" align\u003d\"middle\" border\u003d\"0\"\u003eChris des Etoiles\u003cimg src\u003d\"http://img.kraland.org/s/4A.gif\" alt\u003d\"[*j]\" align\u003d\"middle\" border\u003d\"0\"\u003e vient d\u0027arriver dans la ville Koukouroukoukou. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d71098\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d71098\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -3535,9 +3275,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Sentenza Cervera i Astor a obtenu la récompense \u003cb\u003eRuban Jaune\u003c/b\u003e et peut poursuivre sa carrière dans la Palladium Corporation."
     },
     {
@@ -3559,9 +3297,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Piers a obtenu la récompense \u003cb\u003eRuban Gris\u003c/b\u003e et peut poursuivre sa carrière dans la Confédération Libre."
     },
     {
@@ -3587,9 +3323,7 @@
       "ville": {
         "value": "Monte-Oktavio"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Renato\u003cimg src\u003d\"http://img.kraland.org/s/4E.gif\" alt\u003d\"[*c]\" align\u003d\"middle\" border\u003d\"0\"\u003e vient d\u0027arriver dans la ville Monte-Oktavio. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d948\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d948\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -3615,9 +3349,7 @@
       "ville": {
         "value": "Les Îles Sandwich"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Bachir Bouzouk vient d\u0027arriver dans la ville Les Îles Sandwich. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d9779\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d9779\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -3639,9 +3371,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Ombre \u003cimg src\u003d\"http://img.kraland.org/s/28.gif\" alt\u003d\"[:î]\" align\u003d\"middle\" border\u003d\"0\"\u003e Mystik a obtenu la récompense \u003cb\u003eRuban Rouge\u003c/b\u003e et peut poursuivre sa carrière dans la République de Kraland."
     },
     {
@@ -3667,9 +3397,7 @@
       "ville": {
         "value": "Distillerie"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Sentenza Cervera i Astor vient d\u0027arriver dans la ville Distillerie. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d2610\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d2610\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -3695,9 +3423,7 @@
       "ville": {
         "value": "Bauhaus"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Rose vient d\u0027arriver dans la ville Bauhaus. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d81855\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d81855\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -3723,9 +3449,7 @@
       "ville": {
         "value": "Tribunal Cybermondial"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Piers vient d\u0027arriver dans la ville Tribunal Cybermondial. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d80611\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d80611\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -3751,9 +3475,7 @@
       "ville": {
         "value": "Forum"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Arkosh Nalak vient d\u0027arriver dans la ville Forum. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d80598\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d80598\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -3779,9 +3501,7 @@
       "ville": {
         "value": "Montagne Rouge"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Harrison Jones vient d\u0027arriver dans la ville Montagne Rouge. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d38241\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d38241\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -3807,9 +3527,7 @@
       "ville": {
         "value": "Forum"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Jean d\u0027Ormont-Monde vient d\u0027arriver dans la ville Forum. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d12117\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d12117\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -3831,9 +3549,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Samuel a obtenu la récompense \u003cb\u003eRuban Gris\u003c/b\u003e et peut poursuivre sa carrière dans la Confédération Libre."
     },
     {
@@ -3859,9 +3575,7 @@
       "ville": {
         "value": "Koukouroukoukou"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Ombre \u003cimg src\u003d\"http://img.kraland.org/s/28.gif\" alt\u003d\"[:î]\" align\u003d\"middle\" border\u003d\"0\"\u003e Mystik vient d\u0027arriver dans la ville Koukouroukoukou. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d49259\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d49259\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -3883,9 +3597,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Anna Bolizan a obtenu la récompense \u003cb\u003eRuban Gris\u003c/b\u003e et peut poursuivre sa carrière dans la Confédération Libre."
     },
     {
@@ -3911,9 +3623,7 @@
       "ville": {
         "value": "Montagne Rouge"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Antonov Kourtchatov vient d\u0027arriver dans la ville Montagne Rouge. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d5382\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d5382\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -3935,9 +3645,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Schtroumpf Stalker a obtenu la récompense \u003cb\u003eRuban Gris\u003c/b\u003e et peut poursuivre sa carrière dans la Confédération Libre."
     },
     {
@@ -3959,9 +3667,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Cerný a obtenu la récompense \u003cb\u003eRuban Rouge\u003c/b\u003e et peut poursuivre sa carrière dans la République de Kraland."
     },
     {
@@ -3983,9 +3689,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Aayla Secura a obtenu la récompense \u003cb\u003eRuban Gris\u003c/b\u003e et peut poursuivre sa carrière dans la Confédération Libre."
     },
     {
@@ -4011,9 +3715,7 @@
       "ville": {
         "value": "Montagne Rouge"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Grenadine vient d\u0027arriver dans la ville Montagne Rouge. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d63369\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d63369\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -4039,9 +3741,7 @@
       "ville": {
         "value": "Montagne Rouge"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Zephkiel vient d\u0027arriver dans la ville Montagne Rouge. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d23878\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d23878\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -4067,9 +3767,7 @@
       "ville": {
         "value": "Greffe"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Délice vient d\u0027arriver dans la ville Greffe. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d81875\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d81875\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -4095,9 +3793,7 @@
       "ville": {
         "value": "Forum"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Samuel vient d\u0027arriver dans la ville Forum. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d81853\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d81853\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -4123,9 +3819,7 @@
       "ville": {
         "value": "Forum"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Etoile \u003cimg src\u003d\"http://img.kraland.org/s/4C.gif\" alt\u003d\"[*r]\" align\u003d\"middle\" border\u003d\"0\"\u003e Rouge vient d\u0027arriver dans la ville Forum. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d47004\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d47004\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -4147,9 +3841,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Limbes a obtenu la récompense \u003cb\u003eRuban Gris\u003c/b\u003e et peut poursuivre sa carrière dans la Confédération Libre."
     },
     {
@@ -4175,9 +3867,7 @@
       "ville": {
         "value": "Confluence"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Chandra vient d\u0027arriver dans la ville Confluence. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d78511\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d78511\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -4203,9 +3893,7 @@
       "ville": {
         "value": "Koukouroukoukou"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "T-rence vient d\u0027arriver dans la ville Koukouroukoukou. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d76617\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d76617\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -4227,9 +3915,7 @@
       },
       "province": {},
       "ville": {},
-      "type": {
-        "value": "normal"
-      },
+      "type": "normal",
       "data": "Antara a obtenu la récompense \u003cb\u003eRuban Rouge\u003c/b\u003e et peut poursuivre sa carrière dans la République de Kraland."
     },
     {
@@ -4255,9 +3941,7 @@
       "ville": {
         "value": "Koukouroukoukou"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Shu vient d\u0027arriver dans la ville Koukouroukoukou. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d73951\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d73951\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -4283,9 +3967,7 @@
       "ville": {
         "value": "Tribunal Cybermondial"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Schtroumpf Stalker vient d\u0027arriver dans la ville Tribunal Cybermondial. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d76311\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d76311\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -4311,9 +3993,7 @@
       "ville": {
         "value": "Quartier sur les Eaux"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Cerný vient d\u0027arriver dans la ville Quartier sur les Eaux. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d76585\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d76585\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -4339,9 +4019,7 @@
       "ville": {
         "value": "Quartier sur les Eaux"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Lunor vient d\u0027arriver dans la ville Quartier sur les Eaux. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d31381\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d31381\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -4367,9 +4045,7 @@
       "ville": {
         "value": "Montagne Rouge"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Miroslav\u003cimg src\u003d\"http://img.kraland.org/s/22.gif\" alt\u003d\"[8î]\" align\u003d\"middle\" border\u003d\"0\"\u003eKourtchatov vient d\u0027arriver dans la ville Montagne Rouge. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d81051\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d81051\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -4395,9 +4071,7 @@
       "ville": {
         "value": "Triangle d\u0027Or"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Mule n°473 vient d\u0027arriver dans la ville Triangle d\u0027Or. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d67650\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d67650\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -4423,9 +4097,7 @@
       "ville": {
         "value": "Bisouville"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Leila Tude$ki vient d\u0027arriver dans la ville Bisouville. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d57647\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d57647\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -4451,9 +4123,7 @@
       "ville": {
         "value": "Quartier sur les Eaux"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Wladyslaw vient d\u0027arriver dans la ville Quartier sur les Eaux. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d23280\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d23280\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -4479,9 +4149,7 @@
       "ville": {
         "value": "Quartier sur les Eaux"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Casper S. Troïka DeHell vient d\u0027arriver dans la ville Quartier sur les Eaux. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d10030\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d10030\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -4507,9 +4175,7 @@
       "ville": {
         "value": "Quartier sur les Eaux"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Antara vient d\u0027arriver dans la ville Quartier sur les Eaux. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d185\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d185\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -4535,9 +4201,7 @@
       "ville": {
         "value": "Requiem"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Dergonic vient d\u0027arriver dans la ville Requiem. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d30207\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d30207\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -4563,9 +4227,7 @@
       "ville": {
         "value": "Forum"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Virgil Tibbs-Diagne vient d\u0027arriver dans la ville Forum. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d81801\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d81801\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -4591,9 +4253,7 @@
       "ville": {
         "value": "Forum"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Anna Bolizan vient d\u0027arriver dans la ville Forum. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d81405\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d81405\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -4619,9 +4279,7 @@
       "ville": {
         "value": "Tribunal Cybermondial"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Aayla Secura vient d\u0027arriver dans la ville Tribunal Cybermondial. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d7774\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d7774\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     },
     {
@@ -4647,9 +4305,7 @@
       "ville": {
         "value": "Requiem"
       },
-      "type": {
-        "value": "anim"
-      },
+      "type": "anim",
       "data": "Limbes vient d\u0027arriver dans la ville Requiem. [\u003ca href\u003d\"main.php?p\u003d6_1_0_1\u0026amp;p1\u003d3335\" target\u003d\"_blank\"\u003eprofil\u003c/a\u003e - \u003ca href\u003d\"main.php?p\u003d8_1\u0026amp;p0\u003d1\u0026amp;p7\u003d3335\" target\u003d\"_blank\"\u003ekramail\u003c/a\u003e]"
     }
   ],

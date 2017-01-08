@@ -15273,8 +15273,8 @@
       "empire": {},
       "province": {},
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLOTERIE : 66 billets ont été vendus - Dwight Doe vient d\u0027empocher la somme de 1485 FK. Un montant équivalent est versé aux institutions internationales."
+      "type": "maj",
+      "data": "LOTERIE : 66 billets ont été vendus - Dwight Doe vient d\u0027empocher la somme de 1485 FK. Un montant équivalent est versé aux institutions internationales."
     },
     {
       "dateHeure": {
@@ -15295,8 +15295,8 @@
       },
       "province": {},
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat du Premier Tour de l\u0027élection du Président : Anna Bolizan 60 voix (67.4%) Virgil Tibbs-Diagne 29 voix (32.6%) - le vainqueur est Anna Bolizan qui a recueilli plus de 50% des voix !"
+      "type": "maj",
+      "data": "Résultat du Premier Tour de l\u0027élection du Président : Anna Bolizan 60 voix (67.4%) Virgil Tibbs-Diagne 29 voix (32.6%) - le vainqueur est Anna Bolizan qui a recueilli plus de 50% des voix !"
     },
     {
       "dateHeure": {
@@ -15317,8 +15317,8 @@
       },
       "province": {},
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat du Premier Tour de l\u0027élection du Directeur du Conseil Restreint : Maria W. 460 voix (50.6%) Sigmünd Trust 443 voix (48.7%) Léo Portunist 6 voix (0.7%) - le vainqueur est Maria W. qui a recueilli plus de 50% des voix !"
+      "type": "maj",
+      "data": "Résultat du Premier Tour de l\u0027élection du Directeur du Conseil Restreint : Maria W. 460 voix (50.6%) Sigmünd Trust 443 voix (48.7%) Léo Portunist 6 voix (0.7%) - le vainqueur est Maria W. qui a recueilli plus de 50% des voix !"
     },
     {
       "dateHeure": {
@@ -15339,8 +15339,8 @@
       },
       "province": {},
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat du Premier Tour de l\u0027élection du Premier Ministre : Lunor 54 voix (85.7%) Iska 9 voix (14.3%) - le vainqueur est Lunor qui a recueilli plus de 50% des voix !"
+      "type": "maj",
+      "data": "Résultat du Premier Tour de l\u0027élection du Premier Ministre : Lunor 54 voix (85.7%) Iska 9 voix (14.3%) - le vainqueur est Lunor qui a recueilli plus de 50% des voix !"
     },
     {
       "dateHeure": {
@@ -15363,8 +15363,8 @@
         "value": "Australine"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de gouverneur de la province Australine : - personne ne s\u0027est présenté."
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de gouverneur de la province Australine : - personne ne s\u0027est présenté."
     },
     {
       "dateHeure": {
@@ -15387,8 +15387,8 @@
         "value": "Acropole"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de gouverneur de la province Acropole : Kraptain\u003cimg src\u003d\"http://img.kraland.org/s/4C.gif\" alt\u003d\"[*r]\" align\u003d\"middle\" border\u003d\"0\"\u003eAmerikra 38 voix (65.5%) Khalim Perator 11 voix (19%) Jean d\u0027Ormont-Monde 9 voix (15.5%) - le vainqueur est Kraptain\u003cimg src\u003d\"http://img.kraland.org/s/4C.gif\" alt\u003d\"[*r]\" align\u003d\"middle\" border\u003d\"0\"\u003eAmerikra !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de gouverneur de la province Acropole : Kraptain\u003cimg src\u003d\"http://img.kraland.org/s/4C.gif\" alt\u003d\"[*r]\" align\u003d\"middle\" border\u003d\"0\"\u003eAmerikra 38 voix (65.5%) Khalim Perator 11 voix (19%) Jean d\u0027Ormont-Monde 9 voix (15.5%) - le vainqueur est Kraptain\u003cimg src\u003d\"http://img.kraland.org/s/4C.gif\" alt\u003d\"[*r]\" align\u003d\"middle\" border\u003d\"0\"\u003eAmerikra !"
     },
     {
       "dateHeure": {
@@ -15411,8 +15411,8 @@
         "value": "Valégro"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de gouverneur de la province Valégro : Adhagio du Parc 9 voix (64.3%) Sir Grayhair 4 voix (28.6%) Jayce 1 voix (7.1%) - le vainqueur est Adhagio du Parc !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de gouverneur de la province Valégro : Adhagio du Parc 9 voix (64.3%) Sir Grayhair 4 voix (28.6%) Jayce 1 voix (7.1%) - le vainqueur est Adhagio du Parc !"
     },
     {
       "dateHeure": {
@@ -15435,8 +15435,8 @@
         "value": "Justiciat"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de gouverneur de la province Justiciat : Robert Morningwood 18 voix (69.2%) Délice 8 voix (30.8%) - le vainqueur est Robert Morningwood !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de gouverneur de la province Justiciat : Robert Morningwood 18 voix (69.2%) Délice 8 voix (30.8%) - le vainqueur est Robert Morningwood !"
     },
     {
       "dateHeure": {
@@ -15459,8 +15459,8 @@
         "value": "Sakrista"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de gouverneur de la province Sakrista : Lisa\u003cimg src\u003d\"http://img.kraland.org/s/51.gif\" alt\u003d\"[*n]\" align\u003d\"middle\" border\u003d\"0\"\u003ePûdtun 13 voix (100%) - le vainqueur est Lisa\u003cimg src\u003d\"http://img.kraland.org/s/51.gif\" alt\u003d\"[*n]\" align\u003d\"middle\" border\u003d\"0\"\u003ePûdtun !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de gouverneur de la province Sakrista : Lisa\u003cimg src\u003d\"http://img.kraland.org/s/51.gif\" alt\u003d\"[*n]\" align\u003d\"middle\" border\u003d\"0\"\u003ePûdtun 13 voix (100%) - le vainqueur est Lisa\u003cimg src\u003d\"http://img.kraland.org/s/51.gif\" alt\u003d\"[*n]\" align\u003d\"middle\" border\u003d\"0\"\u003ePûdtun !"
     },
     {
       "dateHeure": {
@@ -15483,8 +15483,8 @@
         "value": "Ruthvénie"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de gouverneur de la province Ruthvénie : Liam Kensington 17 voix (63%) Feuforia \u003cimg src\u003d\"http://img.kraland.org/s/51.gif\" alt\u003d\"[*n]\" align\u003d\"middle\" border\u003d\"0\"\u003e 7 voix (25.9%) Anamilia 3 voix (11.1%) - le vainqueur est Liam Kensington !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de gouverneur de la province Ruthvénie : Liam Kensington 17 voix (63%) Feuforia \u003cimg src\u003d\"http://img.kraland.org/s/51.gif\" alt\u003d\"[*n]\" align\u003d\"middle\" border\u003d\"0\"\u003e 7 voix (25.9%) Anamilia 3 voix (11.1%) - le vainqueur est Liam Kensington !"
     },
     {
       "dateHeure": {
@@ -15507,8 +15507,8 @@
         "value": "Moldavie"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de gouverneur de la province Moldavie : Eau Éthanol 21 voix (63.6%) Boris Michoulevitch 12 voix (36.4%) - le vainqueur est Eau Éthanol !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de gouverneur de la province Moldavie : Eau Éthanol 21 voix (63.6%) Boris Michoulevitch 12 voix (36.4%) - le vainqueur est Eau Éthanol !"
     },
     {
       "dateHeure": {
@@ -15531,8 +15531,8 @@
         "value": "Structurie"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de gouverneur de la province Structurie : Piers 8 voix (100%) - le vainqueur est Piers !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de gouverneur de la province Structurie : Piers 8 voix (100%) - le vainqueur est Piers !"
     },
     {
       "dateHeure": {
@@ -15555,8 +15555,8 @@
         "value": "Dogma"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de gouverneur de la province Dogma : - personne ne s\u0027est présenté."
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de gouverneur de la province Dogma : - personne ne s\u0027est présenté."
     },
     {
       "dateHeure": {
@@ -15579,8 +15579,8 @@
         "value": "Karénie"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de gouverneur de la province Karénie : Mony Clair 5 voix (100%) - le vainqueur est Mony Clair !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de gouverneur de la province Karénie : Mony Clair 5 voix (100%) - le vainqueur est Mony Clair !"
     },
     {
       "dateHeure": {
@@ -15603,8 +15603,8 @@
         "value": "Vallée Pourpre"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de gouverneur de la province Vallée Pourpre : Zephkiel 24 voix (58.5%) Clafoutis Kedmetrov 16 voix (39%) Em\u0027 \u003cimg src\u003d\"http://img.kraland.org/s/50.gif\" alt\u003d\"[*m]\" align\u003d\"middle\" border\u003d\"0\"\u003e 1 voix (2.4%) - le vainqueur est Zephkiel !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de gouverneur de la province Vallée Pourpre : Zephkiel 24 voix (58.5%) Clafoutis Kedmetrov 16 voix (39%) Em\u0027 \u003cimg src\u003d\"http://img.kraland.org/s/50.gif\" alt\u003d\"[*m]\" align\u003d\"middle\" border\u003d\"0\"\u003e 1 voix (2.4%) - le vainqueur est Zephkiel !"
     },
     {
       "dateHeure": {
@@ -15627,8 +15627,8 @@
         "value": "Slavonie"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de gouverneur de la province Slavonie : Marie Soupiere 4 voix (100%) - le vainqueur est Marie Soupiere !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de gouverneur de la province Slavonie : Marie Soupiere 4 voix (100%) - le vainqueur est Marie Soupiere !"
     },
     {
       "dateHeure": {
@@ -15651,8 +15651,8 @@
         "value": "Krapathes"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de gouverneur de la province Krapathes : - personne ne s\u0027est présenté."
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de gouverneur de la province Krapathes : - personne ne s\u0027est présenté."
     },
     {
       "dateHeure": {
@@ -15675,8 +15675,8 @@
         "value": "Caraïbes"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de gouverneur de la province Caraïbes : Barbara Strudel 110 voix (77.5%) Bachir Bouzouk 20 voix (14.1%) Neophyte\u003cimg src\u003d\"http://img.kraland.org/s/51.gif\" alt\u003d\"[*n]\" align\u003d\"middle\" border\u003d\"0\"\u003eChaos 7 voix (4.9%) Dolarhyde 5 voix (3.5%) - le vainqueur est Barbara Strudel !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de gouverneur de la province Caraïbes : Barbara Strudel 110 voix (77.5%) Bachir Bouzouk 20 voix (14.1%) Neophyte\u003cimg src\u003d\"http://img.kraland.org/s/51.gif\" alt\u003d\"[*n]\" align\u003d\"middle\" border\u003d\"0\"\u003eChaos 7 voix (4.9%) Dolarhyde 5 voix (3.5%) - le vainqueur est Barbara Strudel !"
     },
     {
       "dateHeure": {
@@ -15699,8 +15699,8 @@
         "value": "Hélénie"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de gouverneur de la province Hélénie : Antoine (sans chapeau) 9 voix (90%) Ligier 1 voix (10%) - le vainqueur est Antoine (sans chapeau) !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de gouverneur de la province Hélénie : Antoine (sans chapeau) 9 voix (90%) Ligier 1 voix (10%) - le vainqueur est Antoine (sans chapeau) !"
     },
     {
       "dateHeure": {
@@ -15723,8 +15723,8 @@
         "value": "Gradistan"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de gouverneur de la province Gradistan : Merry 3 voix (100%) - le vainqueur est Merry !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de gouverneur de la province Gradistan : Merry 3 voix (100%) - le vainqueur est Merry !"
     },
     {
       "dateHeure": {
@@ -15747,8 +15747,8 @@
         "value": "Kraland"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de gouverneur de la province Kraland : Duncan \u003cimg src\u003d\"http://img.kraland.org/s/4D.gif\" alt\u003d\"[*v]\" align\u003d\"middle\" border\u003d\"0\"\u003e Mc Loutre 65 voix (81.3%) Iki\u003cimg src\u003d\"http://img.kraland.org/s/4C.gif\" alt\u003d\"[*r]\" align\u003d\"middle\" border\u003d\"0\"\u003eOloj 14 voix (17.5%) Austral Queen \u003cimg src\u003d\"http://img.kraland.org/s/4D.gif\" alt\u003d\"[*v]\" align\u003d\"middle\" border\u003d\"0\"\u003e 1 voix (1.3%) - le vainqueur est Duncan \u003cimg src\u003d\"http://img.kraland.org/s/4D.gif\" alt\u003d\"[*v]\" align\u003d\"middle\" border\u003d\"0\"\u003e Mc Loutre !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de gouverneur de la province Kraland : Duncan \u003cimg src\u003d\"http://img.kraland.org/s/4D.gif\" alt\u003d\"[*v]\" align\u003d\"middle\" border\u003d\"0\"\u003e Mc Loutre 65 voix (81.3%) Iki\u003cimg src\u003d\"http://img.kraland.org/s/4C.gif\" alt\u003d\"[*r]\" align\u003d\"middle\" border\u003d\"0\"\u003eOloj 14 voix (17.5%) Austral Queen \u003cimg src\u003d\"http://img.kraland.org/s/4D.gif\" alt\u003d\"[*v]\" align\u003d\"middle\" border\u003d\"0\"\u003e 1 voix (1.3%) - le vainqueur est Duncan \u003cimg src\u003d\"http://img.kraland.org/s/4D.gif\" alt\u003d\"[*v]\" align\u003d\"middle\" border\u003d\"0\"\u003e Mc Loutre !"
     },
     {
       "dateHeure": {
@@ -15771,8 +15771,8 @@
         "value": "Palladium-City"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de gouverneur de la province Palladium-City : Leon Musc 59 voix (46.5%) Anémone\u003cimg src\u003d\"http://img.kraland.org/s/51.gif\" alt\u003d\"[*n]\" align\u003d\"middle\" border\u003d\"0\"\u003e 54 voix (42.5%) Nazhalia Sachs 14 voix (11%) - le vainqueur est Leon Musc !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de gouverneur de la province Palladium-City : Leon Musc 59 voix (46.5%) Anémone\u003cimg src\u003d\"http://img.kraland.org/s/51.gif\" alt\u003d\"[*n]\" align\u003d\"middle\" border\u003d\"0\"\u003e 54 voix (42.5%) Nazhalia Sachs 14 voix (11%) - le vainqueur est Leon Musc !"
     },
     {
       "dateHeure": {
@@ -15795,8 +15795,8 @@
         "value": "Bananie"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de gouverneur de la province Bananie : Sentenza Cervera i Astor 36 voix (97.3%) Franck Lagaule 1 voix (2.7%) - le vainqueur est Sentenza Cervera i Astor !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de gouverneur de la province Bananie : Sentenza Cervera i Astor 36 voix (97.3%) Franck Lagaule 1 voix (2.7%) - le vainqueur est Sentenza Cervera i Astor !"
     },
     {
       "dateHeure": {
@@ -15819,8 +15819,8 @@
         "value": "Underground"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de gouverneur de la province Underground : - personne ne s\u0027est présenté."
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de gouverneur de la province Underground : - personne ne s\u0027est présenté."
     },
     {
       "dateHeure": {
@@ -15845,8 +15845,8 @@
       "ville": {
         "value": "Greffe"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Greffe : Melrise 5 voix (100%) - le vainqueur est Melrise !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Greffe : Melrise 5 voix (100%) - le vainqueur est Melrise !"
     },
     {
       "dateHeure": {
@@ -15871,8 +15871,8 @@
       "ville": {
         "value": "Champs de Patates"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Champs de Patates : Boris Michoulevitch 7 voix (100%) - le vainqueur est Boris Michoulevitch !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Champs de Patates : Boris Michoulevitch 7 voix (100%) - le vainqueur est Boris Michoulevitch !"
     },
     {
       "dateHeure": {
@@ -15897,8 +15897,8 @@
       "ville": {
         "value": "Montagne Rouge"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Montagne Rouge : Reynauld Lavaupot 21 voix (95.5%) Miroslav\u003cimg src\u003d\"http://img.kraland.org/s/22.gif\" alt\u003d\"[8î]\" align\u003d\"middle\" border\u003d\"0\"\u003eKourtchatov 1 voix (4.5%) - le vainqueur est Reynauld Lavaupot !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Montagne Rouge : Reynauld Lavaupot 21 voix (95.5%) Miroslav\u003cimg src\u003d\"http://img.kraland.org/s/22.gif\" alt\u003d\"[8î]\" align\u003d\"middle\" border\u003d\"0\"\u003eKourtchatov 1 voix (4.5%) - le vainqueur est Reynauld Lavaupot !"
     },
     {
       "dateHeure": {
@@ -15923,8 +15923,8 @@
       "ville": {
         "value": "Confluence"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Confluence : La Fougère\u003cimg src\u003d\"http://img.kraland.org/s/50.gif\" alt\u003d\"[*m]\" align\u003d\"middle\" border\u003d\"0\"\u003eBéDoH 4 voix (100%) - le vainqueur est La Fougère\u003cimg src\u003d\"http://img.kraland.org/s/50.gif\" alt\u003d\"[*m]\" align\u003d\"middle\" border\u003d\"0\"\u003eBéDoH !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Confluence : La Fougère\u003cimg src\u003d\"http://img.kraland.org/s/50.gif\" alt\u003d\"[*m]\" align\u003d\"middle\" border\u003d\"0\"\u003eBéDoH 4 voix (100%) - le vainqueur est La Fougère\u003cimg src\u003d\"http://img.kraland.org/s/50.gif\" alt\u003d\"[*m]\" align\u003d\"middle\" border\u003d\"0\"\u003eBéDoH !"
     },
     {
       "dateHeure": {
@@ -15949,8 +15949,8 @@
       "ville": {
         "value": "Ni-Ni"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Ni-Ni : Tom Shelby 1 voix (100%) - le vainqueur est Tom Shelby !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Ni-Ni : Tom Shelby 1 voix (100%) - le vainqueur est Tom Shelby !"
     },
     {
       "dateHeure": {
@@ -15975,8 +15975,8 @@
       "ville": {
         "value": "Astrakran"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Astrakran : Kamaji \u003cimg src\u003d\"http://img.kraland.org/s/51.gif\" alt\u003d\"[*n]\" align\u003d\"middle\" border\u003d\"0\"\u003e 1 voix (100%) - le vainqueur est Kamaji \u003cimg src\u003d\"http://img.kraland.org/s/51.gif\" alt\u003d\"[*n]\" align\u003d\"middle\" border\u003d\"0\"\u003e !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Astrakran : Kamaji \u003cimg src\u003d\"http://img.kraland.org/s/51.gif\" alt\u003d\"[*n]\" align\u003d\"middle\" border\u003d\"0\"\u003e 1 voix (100%) - le vainqueur est Kamaji \u003cimg src\u003d\"http://img.kraland.org/s/51.gif\" alt\u003d\"[*n]\" align\u003d\"middle\" border\u003d\"0\"\u003e !"
     },
     {
       "dateHeure": {
@@ -16001,8 +16001,8 @@
       "ville": {
         "value": "Distillerie"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Distillerie : Tanith 14 voix (100%) Franck Lagaule 0 voix (0%) - le vainqueur est Tanith !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Distillerie : Tanith 14 voix (100%) Franck Lagaule 0 voix (0%) - le vainqueur est Tanith !"
     },
     {
       "dateHeure": {
@@ -16027,8 +16027,8 @@
       "ville": {
         "value": "Quartier sur les Eaux"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Quartier sur les Eaux : Le Schtroumpf Païou 21 voix (100%) - le vainqueur est Le Schtroumpf Païou !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Quartier sur les Eaux : Le Schtroumpf Païou 21 voix (100%) - le vainqueur est Le Schtroumpf Païou !"
     },
     {
       "dateHeure": {
@@ -16053,8 +16053,8 @@
       "ville": {
         "value": "Secteur Restreint"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Secteur Restreint : Jack Rachic 71 voix (58.2%) Ray Kronovan 51 voix (41.8%) - le vainqueur est Jack Rachic !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Secteur Restreint : Jack Rachic 71 voix (58.2%) Ray Kronovan 51 voix (41.8%) - le vainqueur est Jack Rachic !"
     },
     {
       "dateHeure": {
@@ -16079,8 +16079,8 @@
       "ville": {
         "value": "Secteur Portuaire"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Secteur Portuaire : Leon Musc 5 voix (100%) - le vainqueur est Leon Musc !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Secteur Portuaire : Leon Musc 5 voix (100%) - le vainqueur est Leon Musc !"
     },
     {
       "dateHeure": {
@@ -16105,8 +16105,8 @@
       "ville": {
         "value": "Quartier Suprême"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Quartier Suprême : Sarah Koline \u003cimg src\u003d\"http://img.kraland.org/s/4C.gif\" alt\u003d\"[*r]\" align\u003d\"middle\" border\u003d\"0\"\u003e von NINJA 7 voix (100%) - le vainqueur est Sarah Koline \u003cimg src\u003d\"http://img.kraland.org/s/4C.gif\" alt\u003d\"[*r]\" align\u003d\"middle\" border\u003d\"0\"\u003e von NINJA !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Quartier Suprême : Sarah Koline \u003cimg src\u003d\"http://img.kraland.org/s/4C.gif\" alt\u003d\"[*r]\" align\u003d\"middle\" border\u003d\"0\"\u003e von NINJA 7 voix (100%) - le vainqueur est Sarah Koline \u003cimg src\u003d\"http://img.kraland.org/s/4C.gif\" alt\u003d\"[*r]\" align\u003d\"middle\" border\u003d\"0\"\u003e von NINJA !"
     },
     {
       "dateHeure": {
@@ -16131,8 +16131,8 @@
       "ville": {
         "value": "Pirée"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Pirée : Grace Fitzgerald 6 voix (100%) - le vainqueur est Grace Fitzgerald !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Pirée : Grace Fitzgerald 6 voix (100%) - le vainqueur est Grace Fitzgerald !"
     },
     {
       "dateHeure": {
@@ -16157,8 +16157,8 @@
       "ville": {
         "value": "Forum"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Forum : Monseigneur Gebhard 19 voix (63.3%) vakn 11 voix (36.7%) - le vainqueur est Monseigneur Gebhard !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Forum : Monseigneur Gebhard 19 voix (63.3%) vakn 11 voix (36.7%) - le vainqueur est Monseigneur Gebhard !"
     },
     {
       "dateHeure": {
@@ -16183,8 +16183,8 @@
       "ville": {
         "value": "Monte-Oktavio"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Monte-Oktavio : Valheria XoXo\u003cimg src\u003d\"http://img.kraland.org/s/4A.gif\" alt\u003d\"[*j]\" align\u003d\"middle\" border\u003d\"0\"\u003e... 13 voix (68.4%) James\u003cimg src\u003d\"http://img.kraland.org/s/4E.gif\" alt\u003d\"[*c]\" align\u003d\"middle\" border\u003d\"0\"\u003eRice \u003cimg src\u003d\"http://img.kraland.org/s/12.gif\" alt\u003d\"[%(]\" align\u003d\"middle\" border\u003d\"0\"\u003e 6 voix (31.6%) - le vainqueur est Valheria XoXo\u003cimg src\u003d\"http://img.kraland.org/s/4A.gif\" alt\u003d\"[*j]\" align\u003d\"middle\" border\u003d\"0\"\u003e... !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Monte-Oktavio : Valheria XoXo\u003cimg src\u003d\"http://img.kraland.org/s/4A.gif\" alt\u003d\"[*j]\" align\u003d\"middle\" border\u003d\"0\"\u003e... 13 voix (68.4%) James\u003cimg src\u003d\"http://img.kraland.org/s/4E.gif\" alt\u003d\"[*c]\" align\u003d\"middle\" border\u003d\"0\"\u003eRice \u003cimg src\u003d\"http://img.kraland.org/s/12.gif\" alt\u003d\"[%(]\" align\u003d\"middle\" border\u003d\"0\"\u003e 6 voix (31.6%) - le vainqueur est Valheria XoXo\u003cimg src\u003d\"http://img.kraland.org/s/4A.gif\" alt\u003d\"[*j]\" align\u003d\"middle\" border\u003d\"0\"\u003e... !"
     },
     {
       "dateHeure": {
@@ -16209,8 +16209,8 @@
       "ville": {
         "value": "Ruthvenville"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Ruthvenville : Saturna 11 voix (91.7%) Benito Hutchovski 1 voix (8.3%) - le vainqueur est Saturna !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Ruthvenville : Saturna 11 voix (91.7%) Benito Hutchovski 1 voix (8.3%) - le vainqueur est Saturna !"
     },
     {
       "dateHeure": {
@@ -16235,8 +16235,8 @@
       "ville": {
         "value": "Koukouroukoukou"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Koukouroukoukou : Koko Strange 7 voix (58.3%) samsagace 5 voix (41.7%) - le vainqueur est Koko Strange !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Koukouroukoukou : Koko Strange 7 voix (58.3%) samsagace 5 voix (41.7%) - le vainqueur est Koko Strange !"
     },
     {
       "dateHeure": {
@@ -16261,8 +16261,8 @@
       "ville": {
         "value": "Gynerak"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Gynerak : - personne ne s\u0027est présenté."
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Gynerak : - personne ne s\u0027est présenté."
     },
     {
       "dateHeure": {
@@ -16287,8 +16287,8 @@
       "ville": {
         "value": "Pourproville"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Pourproville : Aurore Cérès 5 voix (71.4%) Noster Barmu 2 voix (28.6%) - le vainqueur est Aurore Cérès !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Pourproville : Aurore Cérès 5 voix (71.4%) Noster Barmu 2 voix (28.6%) - le vainqueur est Aurore Cérès !"
     },
     {
       "dateHeure": {
@@ -16313,8 +16313,8 @@
       "ville": {
         "value": "Bisouville"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Bisouville : Ligier 6 voix (60%) Leila Tude$ki 4 voix (40%) - le vainqueur est Ligier !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Bisouville : Ligier 6 voix (60%) Leila Tude$ki 4 voix (40%) - le vainqueur est Ligier !"
     },
     {
       "dateHeure": {
@@ -16339,8 +16339,8 @@
       "ville": {
         "value": "Triangle d\u0027Or"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Triangle d\u0027Or : Suzie 7 voix (77.8%) Ruby Rhod 2 voix (22.2%) - le vainqueur est Suzie !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Triangle d\u0027Or : Suzie 7 voix (77.8%) Ruby Rhod 2 voix (22.2%) - le vainqueur est Suzie !"
     },
     {
       "dateHeure": {
@@ -16365,8 +16365,8 @@
       "ville": {
         "value": "Krakov"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Krakov : - personne ne s\u0027est présenté."
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Krakov : - personne ne s\u0027est présenté."
     },
     {
       "dateHeure": {
@@ -16391,8 +16391,8 @@
       "ville": {
         "value": "Les Îles Sandwich"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Les Îles Sandwich : Père Kizission 56 voix (60.2%) Neophyte\u003cimg src\u003d\"http://img.kraland.org/s/51.gif\" alt\u003d\"[*n]\" align\u003d\"middle\" border\u003d\"0\"\u003eChaos 37 voix (39.8%) - le vainqueur est Père Kizission !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Les Îles Sandwich : Père Kizission 56 voix (60.2%) Neophyte\u003cimg src\u003d\"http://img.kraland.org/s/51.gif\" alt\u003d\"[*n]\" align\u003d\"middle\" border\u003d\"0\"\u003eChaos 37 voix (39.8%) - le vainqueur est Père Kizission !"
     },
     {
       "dateHeure": {
@@ -16417,8 +16417,8 @@
       "ville": {
         "value": "Trésorville"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Trésorville : Capitaine Kraddøck 22 voix (47.8%) Bachir Bouzouk 15 voix (32.6%) Maddow\u003cimg src\u003d\"http://img.kraland.org/s/49.gif\" alt\u003d\"[*t]\" align\u003d\"middle\" border\u003d\"0\"\u003eQuinn\u003cimg src\u003d\"http://img.kraland.org/s/4C.gif\" alt\u003d\"[*r]\" align\u003d\"middle\" border\u003d\"0\"\u003e 7 voix (15.2%) Leif` MacPheun 2 voix (4.3%) Brekekekeke 0 voix (0%) - le vainqueur est Capitaine Kraddøck !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Trésorville : Capitaine Kraddøck 22 voix (47.8%) Bachir Bouzouk 15 voix (32.6%) Maddow\u003cimg src\u003d\"http://img.kraland.org/s/49.gif\" alt\u003d\"[*t]\" align\u003d\"middle\" border\u003d\"0\"\u003eQuinn\u003cimg src\u003d\"http://img.kraland.org/s/4C.gif\" alt\u003d\"[*r]\" align\u003d\"middle\" border\u003d\"0\"\u003e 7 voix (15.2%) Leif` MacPheun 2 voix (4.3%) Brekekekeke 0 voix (0%) - le vainqueur est Capitaine Kraddøck !"
     },
     {
       "dateHeure": {
@@ -16443,8 +16443,8 @@
       "ville": {
         "value": "Bottine"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Bottine : Rygos 9 voix (100%) - le vainqueur est Rygos !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Bottine : Rygos 9 voix (100%) - le vainqueur est Rygos !"
     },
     {
       "dateHeure": {
@@ -16469,8 +16469,8 @@
       "ville": {
         "value": "Déstructural"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Déstructural : Antihémidiote Krarter 1 voix (50%) Vander Decken 1 voix (50%) - le vainqueur est Antihémidiote Krarter !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Déstructural : Antihémidiote Krarter 1 voix (50%) Vander Decken 1 voix (50%) - le vainqueur est Antihémidiote Krarter !"
     },
     {
       "dateHeure": {
@@ -16495,8 +16495,8 @@
       "ville": {
         "value": "Structural"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Structural : Nunnally 9 voix (100%) - le vainqueur est Nunnally !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Structural : Nunnally 9 voix (100%) - le vainqueur est Nunnally !"
     },
     {
       "dateHeure": {
@@ -16521,8 +16521,8 @@
       "ville": {
         "value": "Nouvelle Volupté"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Nouvelle Volupté : Shaira 6 voix (85.7%) Jayce 1 voix (14.3%) - le vainqueur est Shaira !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Nouvelle Volupté : Shaira 6 voix (85.7%) Jayce 1 voix (14.3%) - le vainqueur est Shaira !"
     },
     {
       "dateHeure": {
@@ -16547,8 +16547,8 @@
       "ville": {
         "value": "Dograde"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Dograde : Lady Migra 8 voix (100%) - le vainqueur est Lady Migra !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Dograde : Lady Migra 8 voix (100%) - le vainqueur est Lady Migra !"
     },
     {
       "dateHeure": {
@@ -16573,8 +16573,8 @@
       "ville": {
         "value": "Tribunal Cybermondial"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Tribunal Cybermondial : Dick Morningwood 10 voix (76.9%) Hans Van Meegeren 3 voix (23.1%) - le vainqueur est Dick Morningwood !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Tribunal Cybermondial : Dick Morningwood 10 voix (76.9%) Hans Van Meegeren 3 voix (23.1%) - le vainqueur est Dick Morningwood !"
     },
     {
       "dateHeure": {
@@ -16599,8 +16599,8 @@
       "ville": {
         "value": "Bauhaus"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Bauhaus : Gonna McLean 9 voix (100%) - le vainqueur est Gonna McLean !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Bauhaus : Gonna McLean 9 voix (100%) - le vainqueur est Gonna McLean !"
     },
     {
       "dateHeure": {
@@ -16625,8 +16625,8 @@
       "ville": {
         "value": "Requiem"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Requiem : Mamie Poppins 2 voix (100%) - le vainqueur est Mamie Poppins !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Requiem : Mamie Poppins 2 voix (100%) - le vainqueur est Mamie Poppins !"
     },
     {
       "dateHeure": {
@@ -16651,8 +16651,8 @@
       "ville": {
         "value": "Adalbograd"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eRésultat de l\u0027élection au poste de bourgmestre de la ville Adalbograd : Jason\u003cimg src\u003d\"http://img.kraland.org/s/75.gif\" alt\u003d\"[§k]\" align\u003d\"middle\" border\u003d\"0\"\u003eStature 5 voix (71.4%) Falkorn Alark 2 voix (28.6%) - le vainqueur est Jason\u003cimg src\u003d\"http://img.kraland.org/s/75.gif\" alt\u003d\"[§k]\" align\u003d\"middle\" border\u003d\"0\"\u003eStature !"
+      "type": "maj",
+      "data": "Résultat de l\u0027élection au poste de bourgmestre de la ville Adalbograd : Jason\u003cimg src\u003d\"http://img.kraland.org/s/75.gif\" alt\u003d\"[§k]\" align\u003d\"middle\" border\u003d\"0\"\u003eStature 5 voix (71.4%) Falkorn Alark 2 voix (28.6%) - le vainqueur est Jason\u003cimg src\u003d\"http://img.kraland.org/s/75.gif\" alt\u003d\"[§k]\" align\u003d\"middle\" border\u003d\"0\"\u003eStature !"
     },
     {
       "dateHeure": {
@@ -16675,8 +16675,8 @@
         "value": "Australine"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Australine récolte 16 PO d\u0027impôts."
+      "type": "maj",
+      "data": "La province Australine récolte 16 PO d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -16701,8 +16701,8 @@
       "ville": {
         "value": "Camp des Bagnards"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Camp des Bagnards récolte 16 PO d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Camp des Bagnards récolte 16 PO d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -16723,8 +16723,8 @@
       },
       "province": {},
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLe Royaume de Ruthvénie récolte 1578 Co d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Roi 79 Co, Ministère de la Guerre 0 Co, Ministère de la Justice 0 Co, Ministère des Affaires Etrangères 79 Co, Ministère de l\u0027Economie 868 Co, Ministère de la Recherche 395 Co, Ministère de l\u0027Intérieur 79 Co, Ministère de l\u0027Information 0 Co, Ministère des Services Secrets 78 Co, Ministère du Travail 0 Co."
+      "type": "maj",
+      "data": "Le Royaume de Ruthvénie récolte 1578 Co d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Roi 79 Co, Ministère de la Guerre 0 Co, Ministère de la Justice 0 Co, Ministère des Affaires Etrangères 79 Co, Ministère de l\u0027Economie 868 Co, Ministère de la Recherche 395 Co, Ministère de l\u0027Intérieur 79 Co, Ministère de l\u0027Information 0 Co, Ministère des Services Secrets 78 Co, Ministère du Travail 0 Co."
     },
     {
       "dateHeure": {
@@ -16747,8 +16747,8 @@
         "value": "Valégro"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Valégro récolte 576 Co d\u0027impôts."
+      "type": "maj",
+      "data": "La province Valégro récolte 576 Co d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -16773,8 +16773,8 @@
       "ville": {
         "value": "Nouvelle Volupté"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Nouvelle Volupté récolte 274 Co d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Nouvelle Volupté récolte 274 Co d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -16799,8 +16799,8 @@
       "ville": {
         "value": "Dograde"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Dograde récolte 302 Co d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Dograde récolte 302 Co d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -16823,8 +16823,8 @@
         "value": "Ruthvénie"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Ruthvénie récolte 623 Co d\u0027impôts."
+      "type": "maj",
+      "data": "La province Ruthvénie récolte 623 Co d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -16849,8 +16849,8 @@
       "ville": {
         "value": "Ruthvenville"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Ruthvenville récolte 412 Co d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Ruthvenville récolte 412 Co d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -16875,8 +16875,8 @@
       "ville": {
         "value": "Monte-Oktavio"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Monte-Oktavio récolte 211 Co d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Monte-Oktavio récolte 211 Co d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -16899,8 +16899,8 @@
         "value": "Moldavie"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Moldavie récolte 210 Co d\u0027impôts."
+      "type": "maj",
+      "data": "La province Moldavie récolte 210 Co d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -16925,8 +16925,8 @@
       "ville": {
         "value": "Champs de Patates"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Champs de Patates récolte 146 Co d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Champs de Patates récolte 146 Co d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -16951,8 +16951,8 @@
       "ville": {
         "value": "Adalbograd"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Adalbograd récolte 64 Co d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Adalbograd récolte 64 Co d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -16975,8 +16975,8 @@
         "value": "Karénie"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Karénie récolte 431 Co d\u0027impôts."
+      "type": "maj",
+      "data": "La province Karénie récolte 431 Co d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17001,8 +17001,8 @@
       "ville": {
         "value": "Confluence"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Confluence récolte 106 Co d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Confluence récolte 106 Co d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17027,8 +17027,8 @@
       "ville": {
         "value": "Bottine"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Bottine récolte 325 Co d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Bottine récolte 325 Co d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17049,8 +17049,8 @@
       },
       "province": {},
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa Confédération Libre récolte 2187 ¢¢ d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Présidence 219 ¢¢, Ministère de la Guerre 0 ¢¢, Ministère de la Justice 175 ¢¢, Ministère des Affaires Etrangères 175 ¢¢, Ministère de l\u0027Economie 175 ¢¢, Ministère de la Recherche 1094 ¢¢, Ministère de l\u0027Intérieur 175 ¢¢, Ministère de l\u0027Information 0 ¢¢, Ministère des Services Secrets 174 ¢¢, Ministère du Travail 0 ¢¢."
+      "type": "maj",
+      "data": "La Confédération Libre récolte 2187 ¢¢ d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Présidence 219 ¢¢, Ministère de la Guerre 0 ¢¢, Ministère de la Justice 175 ¢¢, Ministère des Affaires Etrangères 175 ¢¢, Ministère de l\u0027Economie 175 ¢¢, Ministère de la Recherche 1094 ¢¢, Ministère de l\u0027Intérieur 175 ¢¢, Ministère de l\u0027Information 0 ¢¢, Ministère des Services Secrets 174 ¢¢, Ministère du Travail 0 ¢¢."
     },
     {
       "dateHeure": {
@@ -17073,8 +17073,8 @@
         "value": "Acropole"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Acropole récolte 956 ¢¢ d\u0027impôts."
+      "type": "maj",
+      "data": "La province Acropole récolte 956 ¢¢ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17099,8 +17099,8 @@
       "ville": {
         "value": "Forum"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Forum récolte 725 ¢¢ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Forum récolte 725 ¢¢ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17125,8 +17125,8 @@
       "ville": {
         "value": "Pirée"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Pirée récolte 231 ¢¢ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Pirée récolte 231 ¢¢ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17149,8 +17149,8 @@
         "value": "Justiciat"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Justiciat récolte 579 ¢¢ d\u0027impôts."
+      "type": "maj",
+      "data": "La province Justiciat récolte 579 ¢¢ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17175,8 +17175,8 @@
       "ville": {
         "value": "Greffe"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Greffe récolte 327 ¢¢ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Greffe récolte 327 ¢¢ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17201,8 +17201,8 @@
       "ville": {
         "value": "Tribunal Cybermondial"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Tribunal Cybermondial récolte 252 ¢¢ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Tribunal Cybermondial récolte 252 ¢¢ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17225,8 +17225,8 @@
         "value": "Sakrista"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Sakrista récolte 561 ¢¢ d\u0027impôts."
+      "type": "maj",
+      "data": "La province Sakrista récolte 561 ¢¢ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17251,8 +17251,8 @@
       "ville": {
         "value": "Bauhaus"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Bauhaus récolte 495 ¢¢ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Bauhaus récolte 495 ¢¢ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17277,8 +17277,8 @@
       "ville": {
         "value": "Requiem"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Requiem récolte 66 ¢¢ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Requiem récolte 66 ¢¢ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17301,8 +17301,8 @@
         "value": "Structurie"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Structurie récolte 456 ¢¢ d\u0027impôts."
+      "type": "maj",
+      "data": "La province Structurie récolte 456 ¢¢ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17327,8 +17327,8 @@
       "ville": {
         "value": "Déstructural"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Déstructural récolte 174 ¢¢ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Déstructural récolte 174 ¢¢ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17353,8 +17353,8 @@
       "ville": {
         "value": "Structural"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Structural récolte 282 ¢¢ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Structural récolte 282 ¢¢ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17375,8 +17375,8 @@
       },
       "province": {},
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLe Khanat Elmérien récolte 0 ÐE d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Grand Khan 0 ÐE, Ministère de la Guerre 0 ÐE, Ministère de la Justice 0 ÐE, Ministère des Affaires Etrangères 0 ÐE, Ministère de l\u0027Economie 0 ÐE, Ministère de la Recherche 0 ÐE, Ministère de l\u0027Intérieur 0 ÐE, Ministère de l\u0027Information 0 ÐE, Ministère des Services Secrets 0 ÐE, Ministère du Travail 0 ÐE."
+      "type": "maj",
+      "data": "Le Khanat Elmérien récolte 0 ÐE d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Grand Khan 0 ÐE, Ministère de la Guerre 0 ÐE, Ministère de la Justice 0 ÐE, Ministère des Affaires Etrangères 0 ÐE, Ministère de l\u0027Economie 0 ÐE, Ministère de la Recherche 0 ÐE, Ministère de l\u0027Intérieur 0 ÐE, Ministère de l\u0027Information 0 ÐE, Ministère des Services Secrets 0 ÐE, Ministère du Travail 0 ÐE."
     },
     {
       "dateHeure": {
@@ -17399,8 +17399,8 @@
         "value": "Underground"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Underground récolte 0 ÐE d\u0027impôts."
+      "type": "maj",
+      "data": "La province Underground récolte 0 ÐE d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17425,8 +17425,8 @@
       "ville": {
         "value": "Quasar"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Quasar récolte 0 ÐE d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Quasar récolte 0 ÐE d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17447,8 +17447,8 @@
       },
       "province": {},
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLe Paradigme Vert récolte 0 Éf d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Régent 0 Éf, Ministère de la Guerre 0 Éf, Ministère de la Justice 0 Éf, Ministère des Affaires Etrangères 0 Éf, Ministère de l\u0027Economie 0 Éf, Ministère de la Recherche 0 Éf, Ministère de l\u0027Intérieur 0 Éf, Ministère de l\u0027Information 0 Éf, Ministère des Services Secrets 0 Éf, Ministère du Travail 0 Éf."
+      "type": "maj",
+      "data": "Le Paradigme Vert récolte 0 Éf d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Régent 0 Éf, Ministère de la Guerre 0 Éf, Ministère de la Justice 0 Éf, Ministère des Affaires Etrangères 0 Éf, Ministère de l\u0027Economie 0 Éf, Ministère de la Recherche 0 Éf, Ministère de l\u0027Intérieur 0 Éf, Ministère de l\u0027Information 0 Éf, Ministère des Services Secrets 0 Éf, Ministère du Travail 0 Éf."
     },
     {
       "dateHeure": {
@@ -17471,8 +17471,8 @@
         "value": "Krapathes"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Krapathes récolte 0 Éf d\u0027impôts."
+      "type": "maj",
+      "data": "La province Krapathes récolte 0 Éf d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17497,8 +17497,8 @@
       "ville": {
         "value": "Bamboutopia"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Bamboutopia récolte 0 Éf d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Bamboutopia récolte 0 Éf d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17519,8 +17519,8 @@
       },
       "province": {},
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa Théocratie Seelienne récolte 3 N¥ d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Celui qui Guide 0 N¥, Ministère de la Guerre 0 N¥, Ministère de la Justice 0 N¥, Ministère des Affaires Etrangères 0 N¥, Ministère de l\u0027Economie 3 N¥, Ministère de la Recherche 0 N¥, Ministère de l\u0027Intérieur 0 N¥, Ministère de l\u0027Information 0 N¥, Ministère des Services Secrets 0 N¥, Ministère du Travail 0 N¥."
+      "type": "maj",
+      "data": "La Théocratie Seelienne récolte 3 N¥ d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Celui qui Guide 0 N¥, Ministère de la Guerre 0 N¥, Ministère de la Justice 0 N¥, Ministère des Affaires Etrangères 0 N¥, Ministère de l\u0027Economie 3 N¥, Ministère de la Recherche 0 N¥, Ministère de l\u0027Intérieur 0 N¥, Ministère de l\u0027Information 0 N¥, Ministère des Services Secrets 0 N¥, Ministère du Travail 0 N¥."
     },
     {
       "dateHeure": {
@@ -17543,8 +17543,8 @@
         "value": "Dogma"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Dogma récolte 4 N¥ d\u0027impôts."
+      "type": "maj",
+      "data": "La province Dogma récolte 4 N¥ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17569,8 +17569,8 @@
       "ville": {
         "value": "Adam"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Adam récolte 4 N¥ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Adam récolte 4 N¥ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17591,8 +17591,8 @@
       },
       "province": {},
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa Palladium Corporation récolte 2808 P$ d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Direction du Conseil Restreint 0 P$, Ministère de la Guerre 0 P$, Ministère de la Justice 0 P$, Ministère des Affaires Etrangères 0 P$, Ministère de l\u0027Economie 2808 P$, Ministère de la Recherche 0 P$, Ministère de l\u0027Intérieur 0 P$, Ministère de l\u0027Information 0 P$, Ministère des Services Secrets 0 P$, Ministère du Travail 0 P$."
+      "type": "maj",
+      "data": "La Palladium Corporation récolte 2808 P$ d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Direction du Conseil Restreint 0 P$, Ministère de la Guerre 0 P$, Ministère de la Justice 0 P$, Ministère des Affaires Etrangères 0 P$, Ministère de l\u0027Economie 2808 P$, Ministère de la Recherche 0 P$, Ministère de l\u0027Intérieur 0 P$, Ministère de l\u0027Information 0 P$, Ministère des Services Secrets 0 P$, Ministère du Travail 0 P$."
     },
     {
       "dateHeure": {
@@ -17615,8 +17615,8 @@
         "value": "Caraïbes"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Caraïbes récolte 841 P$ d\u0027impôts."
+      "type": "maj",
+      "data": "La province Caraïbes récolte 841 P$ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17641,8 +17641,8 @@
       "ville": {
         "value": "Les Îles Sandwich"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Les Îles Sandwich récolte 375 P$ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Les Îles Sandwich récolte 375 P$ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17667,8 +17667,8 @@
       "ville": {
         "value": "Trésorville"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Trésorville récolte 466 P$ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Trésorville récolte 466 P$ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17691,8 +17691,8 @@
         "value": "Hélénie"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Hélénie récolte 244 P$ d\u0027impôts."
+      "type": "maj",
+      "data": "La province Hélénie récolte 244 P$ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17717,8 +17717,8 @@
       "ville": {
         "value": "Ni-Ni"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Ni-Ni récolte 96 P$ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Ni-Ni récolte 96 P$ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17743,8 +17743,8 @@
       "ville": {
         "value": "Bisouville"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Bisouville récolte 148 P$ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Bisouville récolte 148 P$ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17767,8 +17767,8 @@
         "value": "Palladium-City"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Palladium-City récolte 1058 P$ d\u0027impôts."
+      "type": "maj",
+      "data": "La province Palladium-City récolte 1058 P$ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17793,8 +17793,8 @@
       "ville": {
         "value": "Secteur Restreint"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Secteur Restreint récolte 805 P$ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Secteur Restreint récolte 805 P$ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17819,8 +17819,8 @@
       "ville": {
         "value": "Secteur Portuaire"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Secteur Portuaire récolte 253 P$ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Secteur Portuaire récolte 253 P$ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17843,8 +17843,8 @@
         "value": "Bananie"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Bananie récolte 1133 P$ d\u0027impôts."
+      "type": "maj",
+      "data": "La province Bananie récolte 1133 P$ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17869,8 +17869,8 @@
       "ville": {
         "value": "Distillerie"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Distillerie récolte 746 P$ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Distillerie récolte 746 P$ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17895,8 +17895,8 @@
       "ville": {
         "value": "Triangle d\u0027Or"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Triangle d\u0027Or récolte 387 P$ d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Triangle d\u0027Or récolte 387 P$ d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17917,8 +17917,8 @@
       },
       "province": {},
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eL\u0027Empire Brun récolte 0 MØ d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Empereur Brun 0 MØ, Ministère de la Guerre 0 MØ, Ministère de la Justice 0 MØ, Ministère des Affaires Etrangères 0 MØ, Ministère de l\u0027Economie 0 MØ, Ministère de la Recherche 0 MØ, Ministère de l\u0027Intérieur 0 MØ, Ministère de l\u0027Information 0 MØ, Ministère des Services Secrets 0 MØ, Ministère du Travail 0 MØ."
+      "type": "maj",
+      "data": "L\u0027Empire Brun récolte 0 MØ d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Empereur Brun 0 MØ, Ministère de la Guerre 0 MØ, Ministère de la Justice 0 MØ, Ministère des Affaires Etrangères 0 MØ, Ministère de l\u0027Economie 0 MØ, Ministère de la Recherche 0 MØ, Ministère de l\u0027Intérieur 0 MØ, Ministère de l\u0027Information 0 MØ, Ministère des Services Secrets 0 MØ, Ministère du Travail 0 MØ."
     },
     {
       "dateHeure": {
@@ -17939,8 +17939,8 @@
       },
       "province": {},
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa République de Kraland récolte 2078 FK d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Premier Ministre 208 FK, Ministère de la Guerre 208 FK, Ministère de la Justice 208 FK, Ministère des Affaires Etrangères 104 FK, Ministère de l\u0027Economie 416 FK, Ministère de la Recherche 208 FK, Ministère de l\u0027Intérieur 208 FK, Ministère de l\u0027Information 208 FK, Ministère des Services Secrets 208 FK, Ministère du Travail 102 FK."
+      "type": "maj",
+      "data": "La République de Kraland récolte 2078 FK d\u0027impôts. Les impôts ont été distribués aux différents ministères selon la répartition décidée par le Chef du Gouvernement : Premier Ministre 208 FK, Ministère de la Guerre 208 FK, Ministère de la Justice 208 FK, Ministère des Affaires Etrangères 104 FK, Ministère de l\u0027Economie 416 FK, Ministère de la Recherche 208 FK, Ministère de l\u0027Intérieur 208 FK, Ministère de l\u0027Information 208 FK, Ministère des Services Secrets 208 FK, Ministère du Travail 102 FK."
     },
     {
       "dateHeure": {
@@ -17963,8 +17963,8 @@
         "value": "Vallée Pourpre"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Vallée Pourpre récolte 834 FK d\u0027impôts."
+      "type": "maj",
+      "data": "La province Vallée Pourpre récolte 834 FK d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -17989,8 +17989,8 @@
       "ville": {
         "value": "Montagne Rouge"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Montagne Rouge récolte 627 FK d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Montagne Rouge récolte 627 FK d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -18015,8 +18015,8 @@
       "ville": {
         "value": "Pourproville"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Pourproville récolte 207 FK d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Pourproville récolte 207 FK d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -18039,8 +18039,8 @@
         "value": "Slavonie"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Slavonie récolte 493 FK d\u0027impôts."
+      "type": "maj",
+      "data": "La province Slavonie récolte 493 FK d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -18065,8 +18065,8 @@
       "ville": {
         "value": "Koukouroukoukou"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Koukouroukoukou récolte 182 FK d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Koukouroukoukou récolte 182 FK d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -18091,8 +18091,8 @@
       "ville": {
         "value": "Gynerak"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Gynerak récolte 311 FK d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Gynerak récolte 311 FK d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -18115,8 +18115,8 @@
         "value": "Gradistan"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Gradistan récolte 224 FK d\u0027impôts."
+      "type": "maj",
+      "data": "La province Gradistan récolte 224 FK d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -18141,8 +18141,8 @@
       "ville": {
         "value": "Astrakran"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Astrakran récolte 22 FK d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Astrakran récolte 22 FK d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -18167,8 +18167,8 @@
       "ville": {
         "value": "Krakov"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Krakov récolte 202 FK d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Krakov récolte 202 FK d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -18191,8 +18191,8 @@
         "value": "Kraland"
       },
       "ville": {},
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa province Kraland récolte 873 FK d\u0027impôts."
+      "type": "maj",
+      "data": "La province Kraland récolte 873 FK d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -18217,8 +18217,8 @@
       "ville": {
         "value": "Quartier Suprême"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Quartier Suprême récolte 368 FK d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Quartier Suprême récolte 368 FK d\u0027impôts."
     },
     {
       "dateHeure": {
@@ -18243,8 +18243,8 @@
       "ville": {
         "value": "Quartier sur les Eaux"
       },
-      "type": "Undefined",
-      "data": "\u003ctd class\u003d\"ev_maj\"\u003eLa ville Quartier sur les Eaux récolte 505 FK d\u0027impôts."
+      "type": "maj",
+      "data": "La ville Quartier sur les Eaux récolte 505 FK d\u0027impôts."
     }
   ],
   "jour": {

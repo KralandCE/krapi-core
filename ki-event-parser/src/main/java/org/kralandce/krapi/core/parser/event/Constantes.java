@@ -14,6 +14,7 @@ public final class Constantes {
 	
     public static final String TD_EVENT_ANIM = "<td class=\"ev_anim\">";
     public static final String TD_EVENT_NORMAL = "<td class=\"ev_normal\">";
+    public static final String TD_EVENT_MAJ = "<td class=\"ev_maj\">";
     
 	public static final String ATTR_SRC = "src";
 	
