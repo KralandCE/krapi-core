@@ -2,6 +2,8 @@ package org.kralandce.krapi.core;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.stream.JsonReader;
+
 import org.jsoup.Connection;
 import org.jsoup.Connection.Method;
 import org.jsoup.Jsoup;
@@ -10,6 +12,9 @@ import org.jsoup.nodes.Node;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.IOException;
 import java.net.URL;
 import java.util.Map;
@@ -18,6 +23,7 @@ import java.util.Map;
 /**
  * A bunch of usefull thing
  * @author hello-gitty
+ * @param <E>
  *
  */
 public class Util {
@@ -94,6 +100,15 @@ public class Util {
 		Gson gson = new Gson();
 		return gson.toJson(oo);
 	}
+	
+	public static <E> E fromJson (File data, Class<E> clazz) throws IOException {
+	    Gson gson = new GsonBuilder().create();
+	    JsonReader jr = gson.newJsonReader(new FileReader(data));
+	    E oo = gson.fromJson(jr, clazz);
+	    jr.close();
+	    return oo;
+	}
+	
 
 	public static String toPrettyJson(Object oo) {
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
