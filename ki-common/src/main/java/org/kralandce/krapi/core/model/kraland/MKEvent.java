@@ -9,10 +9,35 @@ public final class MKEvent {
 
     }
 
-    public enum Type {
-        NORMAL,
-        ANIMATION,
-        MAJ,
+    public static final class Type {
+        private final String type;
+
+        private Type(String eventType) {
+            this.type = checkNotNull(eventType);
+        }
+
+        public static Type of(String eventType) {
+            return new Type(eventType);
+        }
+
+        public String asString() {
+            return this.type;
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            if( this == o ) return true;
+            if( o == null || getClass() != o.getClass() ) return false;
+
+            Type text1 = (Type) o;
+
+            return this.type.equals(text1.type);
+        }
+
+        @Override
+        public int hashCode() {
+            return this.type.hashCode();
+        }
     }
 
     public static final class Content {
